@@ -1,0 +1,59 @@
+# ---------------------------------------------------------------------------
+# GitHub Actions workflow: keep the METAR data fresh on a schedule.
+#
+# Put this file in your repo at:   .github/workflows/update-metar.yml
+#
+# What it does:
+#   * Runs fetch_metar.py every ~15 minutes on GitHub's servers
+#   * fetch_metar.py pulls live METAR/TAF from aviationweather.gov and writes
+#     data/regional_metar.geojson (+ data/vedo_taf.json)
+#   * Commits the refreshed data back to the repo
+#   * GitHub Pages re-serves it automatically, so the live dashboard updates
+#
+# Cost: free on public repos. No server, no credit card.
+# Note: GitHub's scheduler is "best effort" and can run a few minutes late or
+#       skip under heavy load — fine for METAR, which updates ~hourly anyway.
+# ---------------------------------------------------------------------------
+name: Update METAR data
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"     # every 15 minutes (UTC)
+  workflow_dispatch: {}         # lets you trigger it manually from the Actions tab
+
+# The job needs permission to commit the refreshed data back to the repo
+permissions:
+  contents: write
+
+# Never let two refresh runs overlap
+concurrency:
+  group: metar-update
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # fetch_metar.py uses only the Python standard library — nothing to install.
+      - name: Fetch METAR + TAF
+        run: python fetch_metar.py
+
+      - name: Commit refreshed data (if changed)
+        run: |
+          git config user.name  "metar-bot"
+          git config user.email "metar-bot@users.noreply.github.com"
+          git add data/
+          if git diff --quiet --staged; then
+            echo "No weather changes this run."
+          else
+            git commit -m "chore: refresh METAR data [skip ci]"
+            git push
+          fi
