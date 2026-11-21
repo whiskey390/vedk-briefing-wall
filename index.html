@@ -43,7 +43,7 @@
   --vfr:#22c55e;--mvfr:#3b82f6;--ifr:#ef4444;--lifr:#d946ef;--home:#f59e0b;
   --accent-dim:rgba(0,200,240,.14);
   --fn:'Syne',sans-serif;--fm:'DM Mono',monospace;
-  --r:5px;--hh:52px;--ribbon-h:88px;--sbw:308px;--stath:28px;
+  --r:5px;--hh:52px;--ribbon-h:104px;--sbw:308px;--stath:28px;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html,body{height:100%;overflow:hidden}
@@ -118,11 +118,11 @@ body{background:var(--bg-root);color:var(--text-hi);font-family:var(--fn);font-s
    FLOATING RIBBON (3 nearest METARs + UTC/IST + last update)
 ═══════════════════════════════════════════════════════════ */
 #ribbon{
-  height:var(--ribbon-h);flex-shrink:0;
+  min-height:var(--ribbon-h);flex-shrink:0;
   background:linear-gradient(90deg,rgba(var(--panel-rgb),.98) 0%,rgba(var(--panel-rgb),.94) 100%);
   border-bottom:1px solid var(--border);
-  display:flex;align-items:stretch;padding:0;gap:0;z-index:850;
-  box-shadow:0 4px 18px rgba(0,0,0,.35);position:relative;overflow:hidden;
+  display:flex;align-items:stretch;flex-wrap:wrap;padding:0;gap:0;z-index:850;
+  box-shadow:0 4px 18px rgba(0,0,0,.35);position:relative;
 }
 #ribbon::before{
   content:'';position:absolute;top:0;left:0;right:0;height:2px;
@@ -130,13 +130,13 @@ body{background:var(--bg-root);color:var(--text-hi);font-family:var(--fn);font-s
   opacity:.8;
 }
 .rb-sec{
-  flex-shrink:0;padding:10px 16px;display:flex;flex-direction:column;justify-content:center;
-  border-right:1px solid var(--border);position:relative;
+  padding:9px 16px;display:flex;flex-direction:column;justify-content:center;
+  border-right:1px solid var(--border);border-bottom:1px solid transparent;position:relative;
 }
-.rb-sec.time-sec{min-width:220px}
-.rb-sec.metar-sec{flex:1;min-width:220px;transition:background .2s;cursor:pointer}
+.rb-sec.time-sec{flex:1 1 210px;min-width:200px}
+.rb-sec.metar-sec{flex:2 1 300px;min-width:270px;transition:background .2s;cursor:pointer}
 .rb-sec.metar-sec:hover{background:var(--bg-hover)}
-.rb-sec.last-sec{min-width:180px;border-right:none}
+.rb-sec.last-sec{flex:1 1 190px;min-width:180px;border-right:none}
 .rb-label{
   font-size:9px;letter-spacing:1.6px;text-transform:uppercase;
   color:var(--text-lo);margin-bottom:4px;display:flex;align-items:center;gap:5px;
@@ -172,13 +172,24 @@ body{background:var(--bg-root);color:var(--text-hi);font-family:var(--fn);font-s
 .metar-dist{margin-left:auto;font-family:var(--fm);font-size:10px;color:var(--text-lo);white-space:nowrap}
 .metar-wx{display:flex;gap:10px;font-family:var(--fm);font-size:10.5px;color:var(--text-mid);align-items:center;flex-wrap:wrap}
 .metar-wx span{display:inline-flex;align-items:center;gap:3px}
+/* Raw METAR string line in the ribbon */
+.metar-raw-line{
+  font-family:var(--fm);font-size:10px;color:var(--accent);
+  background:var(--bg-input);border:1px solid var(--border);border-radius:4px;
+  padding:3px 7px;margin-top:5px;line-height:1.4;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  letter-spacing:.2px;
+}
 .metar-wx b{color:var(--text-hi);font-weight:600}
 .metar-wx i{font-size:9px;color:var(--text-lo)}
 /* Last-update section */
 .last-upd-val{font-family:var(--fm);font-size:13px;font-weight:600;color:var(--accent2);line-height:1.1}
 .last-upd-rel{font-family:var(--fm);font-size:10px;color:var(--text-mid);margin-top:3px}
-.last-upd-rel.stale{color:var(--accent3)}
+.last-upd-rel.stale{color:var(--accent5)}
 .last-upd-rel.fresh{color:var(--accent2)}
+.last-live{font-family:var(--fm);font-size:9px;color:var(--text-lo);margin-top:2px}
+.last-live.ok{color:var(--accent2)}
+.last-live.warn{color:var(--accent3)}
 .pulse-dot{width:7px;height:7px;border-radius:50%;background:var(--accent2);box-shadow:0 0 6px var(--accent2);display:inline-block;margin-right:5px;animation:blink 2s infinite;vertical-align:middle}
 .src-badge{
   display:inline-block;font-family:var(--fm);font-size:8px;letter-spacing:.8px;
@@ -258,6 +269,17 @@ body{background:var(--bg-root);color:var(--text-hi);font-family:var(--fn);font-s
 .bm-tag.carto{background:rgba(201,122,255,.85)}
 .bm-tag.esri{background:rgba(0,200,240,.85)}
 .bm-tag.osm{background:rgba(0,232,150,.85)}
+.bm-tag.s2{background:rgba(34,197,94,.9)}
+.bm-tag.custom{background:rgba(255,106,61,.9)}
+/* custom tiles input under the basemap grid */
+.bm-custom{padding:4px 10px 10px}
+.bm-custom label{display:block;font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--text-lo);margin-bottom:4px}
+.bm-custom .bmc-row{display:flex;gap:5px}
+.bm-custom input{flex:1;background:var(--bg-input);border:1px solid var(--border);color:var(--text-hi);padding:6px 8px;font-family:var(--fm);font-size:10px;border-radius:var(--r);outline:none}
+.bm-custom input:focus{border-color:var(--accent)}
+.bm-custom button{background:var(--bg-card);border:1px solid var(--border);color:var(--accent);padding:6px 10px;border-radius:var(--r);cursor:pointer;font-family:var(--fn);font-size:11px;font-weight:700;transition:all .15s}
+.bm-custom button:hover{background:var(--accent);color:#000}
+.bm-custom .bmc-hint{font-size:9px;color:var(--text-lo);margin-top:5px;line-height:1.5}
 
 /* Toggle rows for layer visibility */
 .toggle-list{padding:4px 10px 10px}
@@ -580,13 +602,69 @@ body{background:var(--bg-root);color:var(--text-hi);font-family:var(--fn);font-s
 /* Wind barb SVG inside tooltip */
 .wind-barb-svg{display:inline-block;vertical-align:middle}
 
-/* Fit-to-content responsive tweaks */
-@media (max-width:1100px){
-  #ribbon .rb-sec.metar-sec:nth-child(4){display:none}
+/* ═══════════════════════════════════════════════════════════
+   RESPONSIVE — keep the whole UI intact from phones to 32" TVs.
+   Nothing is clipped; sections wrap and the sidebar becomes an
+   overlay on small screens instead of squeezing the map.
+═══════════════════════════════════════════════════════════ */
+
+/* Very large screens / TVs: scale type up a touch so it's readable
+   from across a briefing room, and cap the map's left/right so edges
+   aren't lost to TV overscan. */
+@media (min-width:2200px){
+  :root{ --sbw:360px; }
+  body{ font-size:15px; }
+  .time-val{ font-size:22px; }
+  .metar-icao{ font-size:16px; }
+  .metar-raw-line{ font-size:12px; }
 }
-@media (max-width:900px){
-  #ribbon .rb-sec.metar-sec:nth-child(3){display:none}
-  :root{--sbw:260px}
+@media (min-width:1600px) and (max-width:2199px){
+  :root{ --sbw:330px; }
+}
+
+/* Laptops / small desktops: ribbon naturally wraps (flex-wrap).
+   Add a divider under wrapped rows so it still reads cleanly. */
+@media (max-width:1180px){
+  .rb-sec{ border-bottom-color:var(--border); }
+  .coord-pill{ display:none; }   /* free up header room */
+}
+
+/* Tablets & below: sidebar floats OVER the map (doesn't squeeze it),
+   header items wrap, ribbon sections go full-width-ish. */
+@media (max-width:920px){
+  .sb{
+    position:absolute; top:0; bottom:0; left:0; z-index:700;
+    box-shadow:0 10px 40px rgba(0,0,0,.6); width:300px;
+  }
+  .sb.hide{ width:0; }
+  #hdr{ flex-wrap:nowrap; }
+  .hbtn span, .hbtn{ font-size:11px; }
+  .rb-sec.metar-sec{ flex:1 1 100%; }
+  .rb-sec.time-sec, .rb-sec.last-sec{ flex:1 1 48%; }
+  .m-search{ max-width:calc(100% - 90px); }
+  .m-search input{ width:150px; }
+}
+
+/* Phones: stack ribbon fully, shrink header to icons, compact map tools. */
+@media (max-width:560px){
+  :root{ --hh:48px; }
+  .logo-txt{ font-size:12px; }
+  .logo-txt small{ display:none; }
+  .area-status{ padding:3px 8px; }
+  .hbtn{ padding:0 7px; }
+  .rb-sec{ flex:1 1 100% !important; }
+  .m-search{ left:8px; }
+  .m-search input{ width:110px; }
+  .m-tools{ right:8px; top:8px; }
+  .mt{ width:30px; height:30px; }
+  .terrain-panel, .measure-box{ width:calc(100vw - 28px); }
+  .stbar{ font-size:9px; gap:7px; overflow-x:auto; white-space:nowrap; }
+}
+
+/* Landscape phones / short screens: let the whole page scroll if the
+   wrapped ribbon leaves too little height for the map. */
+@media (max-height:520px){
+  .map-area{ min-height:260px; }
 }
 
 </style>
@@ -666,11 +744,12 @@ body{background:var(--bg-root);color:var(--text-hi);font-family:var(--fn);font-s
 
   <!-- Last update section -->
   <div class="rb-sec last-sec">
-    <div class="rb-label"><i class="fa-solid fa-satellite-dish"></i> Last METAR Update</div>
+    <div class="rb-label"><i class="fa-solid fa-satellite-dish"></i> Latest Observation</div>
     <div class="last-upd-val" id="lastUpdVal">—</div>
     <div class="last-upd-rel" id="lastUpdRel"><span class="pulse-dot"></span>Awaiting data…</div>
+    <div class="last-live" id="lastLive">⟳ connecting…</div>
     <div><span class="src-badge OFFLINE" id="srcBadge" title="">INIT</span>
-      <i class="fa-solid fa-circle-question" style="color:var(--text-lo);font-size:10px;margin-left:5px;cursor:help" title="LIVE = fresh METAR from aviationweather.gov · FALLBACK = fetcher ran but AWC was unreachable (cached values) · OFFLINE = page could not read data/regional_metar.geojson, so it is showing built-in demo data. Run fetch_metar.py and open this page over http:// (not file://) to go LIVE."></i>
+      <i class="fa-solid fa-circle-question" style="color:var(--text-lo);font-size:10px;margin-left:5px;cursor:help" title="LIVE = METAR pulled directly from aviationweather.gov by your browser (independent of the backend). CACHE = served from the committed data file written by the GitHub Action. DEMO = could not reach either source; showing sample data. 'Latest Observation' is the real METAR issue time (changes when a new METAR is published, typically every 30–60 min). 'checked … ago' resets every refresh and confirms the page is live."></i>
     </div>
   </div>
 </div>
@@ -690,8 +769,16 @@ body{background:var(--bg-root);color:var(--text-hi);font-family:var(--fn);font-s
         <span>Base Map Source</span>
         <i class="fa-solid fa-chevron-down chev"></i>
       </div>
-      <div class="ps-b shut" id="psBM" style="max-height:600px">
+      <div class="ps-b shut" id="psBM" style="max-height:640px">
         <div class="bm-grid" id="bmGrid"></div>
+        <div class="bm-custom">
+          <label>Custom XYZ / WMTS tiles (e.g. Sentinel Hub)</label>
+          <div class="bmc-row">
+            <input type="text" id="bmCustomUrl" placeholder="https://…/{z}/{x}/{y}.png"/>
+            <button onclick="addCustomBasemap()">Add</button>
+          </div>
+          <div class="bmc-hint"><i class="fa-solid fa-circle-info" style="color:var(--accent)"></i> Paste any <b>{z}/{x}/{y}</b> tile URL — e.g. a Sentinel Hub WMTS layer filtered to &lt;10% cloud — to use it as the basemap.</div>
+        </div>
       </div>
     </div>
 
@@ -1097,6 +1184,16 @@ const BASEMAPS = {
     attr: "© Esri",
     preview: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/6/27/44",
     max: 13
+  },
+  "s2cloudless": {
+    label: "Sentinel-2 Cloudless", sub: "Cloud-free TCC · RGB",
+    tag: "S2",
+    // EOX s2cloudless — free, no API key, global cloud-free Sentinel-2 mosaic.
+    // Change the year (…-2023_…) to another available year if desired.
+    url: "https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpg",
+    attr: "Sentinel-2 cloudless (s2maps.eu) by EOX IT Services GmbH",
+    preview: "https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2023_3857/default/g/6/27/44.jpg",
+    max: 16
   }
 };
 
@@ -1107,8 +1204,11 @@ let activeBMKey = "esri-dark";
 const DEFAULT_ZOOM = 10;
 let metarStations = [];
 let lfaFeatures = [];
-let dataSource = "OFFLINE";
-let lastDataTime = null;
+let dataSource = "INIT";       // LIVE | CACHE | DEMO
+let lastDataTime = null;       // newest observation time (meteorological freshness)
+let lastFetchTime = null;      // when the browser last successfully pulled data (liveness)
+const STATION_IDS = ["VEDO","VEDG","VERC","VECC","VEPT"];
+const REFRESH_MIN = 10;        // browser re-fetch cadence (minutes)
 let rangeLayer = null, compassLayer = null, lfaLayer = null, qgisLfaLayer = null, metarLayer = null, windLayer = null;
 let bufferCircle = null, bufferGlow = null;
 let bufferNM = 10;           // current training-area buffer radius
@@ -1170,13 +1270,31 @@ function activateBM(key){
   const bm = BASEMAPS[key];
   if(!bm) return;
   if(activeBM) MAP.removeLayer(activeBM);
-  activeBM = L.tileLayer(bm.url, { attribution:bm.attr, maxZoom:bm.max });
+  activeBM = L.tileLayer(bm.url, { attribution:bm.attr, maxZoom:bm.max, maxNativeZoom:bm.max });
   activeBM.addTo(MAP);
   activeBM.bringToBack();
   activeBMKey = key;
   document.querySelectorAll('.bm-opt').forEach(el => el.classList.remove('on'));
   document.getElementById('bm_'+key.replace(/[^\w]/g,'_'))?.classList.add('on');
   document.getElementById('st-bm').textContent = bm.label;
+  // Keep 3D basemap in sync if it's running
+  if(is3D && MAP3D && MAP3D.getSource('basemap')){
+    try { MAP3D.getSource('basemap').setTiles([bm.url.replace('{s}','a')]); } catch(e){}
+  }
+}
+
+/* Add a user-supplied XYZ/WMTS tile URL as a new basemap (e.g. Sentinel Hub) */
+function addCustomBasemap(){
+  const url = (document.getElementById('bmCustomUrl').value || '').trim();
+  if(!url || !/\{z\}/.test(url) || !/\{x\}/.test(url) || !/\{y\}/.test(url)){
+    showToast('Enter a tile URL containing {z}, {x} and {y}');
+    return;
+  }
+  const key = 'custom_' + Date.now();
+  BASEMAPS[key] = { label:'Custom Tiles', sub:'User source', tag:'CUSTOM', url, attr:'Custom source', preview:'', max:19 };
+  renderBasemaps();
+  activateBM(key);
+  showToast('Custom basemap added');
 }
 
 function renderBasemaps(){
@@ -1437,43 +1555,75 @@ function buildMetarPopup(p){
 /* ═══════════════════════════════════════
    DATA LOADING (fetch from python-generated GeoJSON)
 ═══════════════════════════════════════ */
+/* ──────────────────────────────────────────────────────────────
+   Three-tier data loader. Freshness no longer depends on the backend
+   cron: the browser pulls METAR DIRECTLY from aviationweather.gov.
+     1. LIVE  — direct AWC API fetch (always current, client-side)
+     2. CACHE — committed data/regional_metar.geojson (GitHub Action)
+     3. DEMO  — built-in sample so the wall is never blank
+────────────────────────────────────────────────────────────── */
 async function loadAllData(){
-  // Regional METARs
+  let loaded = false;
+
+  // ── 1. Direct from AWC (primary) ──────────────────────────────
   try {
-    const r = await fetch(`data/regional_metar.geojson?t=${Date.now()}`);
-    if(!r.ok) throw new Error('HTTP ' + r.status);
-    const geo = await r.json();
-    metarStations = (geo.features || []).map(f => {
-      const dist = distNM(VEDK.lat, VEDK.lon, f.geometry.coordinates[1], f.geometry.coordinates[0]);
-      f.properties._dist_nm = dist;
-      f.properties._brg = bearingTo(VEDK.lat, VEDK.lon, f.geometry.coordinates[1], f.geometry.coordinates[0]);
-      return f;
-    });
-    // Sort by distance ascending
-    metarStations.sort((a,b) => a.properties._dist_nm - b.properties._dist_nm);
-    dataSource = geo.source || 'LIVE';
-    lastDataTime = geo.generated_at_utc ? new Date(geo.generated_at_utc) : new Date();
-    updateDataFreshness();
-    showToast(`✓ Loaded ${metarStations.length} stations (${dataSource})`);
-  } catch(err) {
-    // Use demo fallback so the UI stays populated even without the Python script running
-    console.warn('METAR GeoJSON fetch failed, using built-in demo data', err);
-    loadDemoMetars();
-    dataSource = 'OFFLINE';
-    lastDataTime = new Date();
-    updateDataFreshness();
+    const url = `https://aviationweather.gov/api/data/metar?ids=${STATION_IDS.join(',')}&format=json`;
+    const r = await fetch(url, { cache:'no-store' });
+    if(r.ok){
+      const arr = await r.json();
+      if(Array.isArray(arr) && arr.length){
+        metarStations = buildStationsFromAWC(arr);
+        dataSource = 'LIVE';
+        lastFetchTime = new Date();
+        lastDataTime  = newestObsTime(metarStations) || lastFetchTime;
+        loaded = true;
+      }
+    }
+  } catch(err){
+    console.warn('Direct AWC fetch failed (CORS/offline?), trying cached file', err);
   }
 
+  // ── 2. Cached GeoJSON from the GitHub Action (fallback) ───────
+  if(!loaded){
+    try {
+      const r = await fetch(`data/regional_metar.geojson?t=${Date.now()}`, { cache:'no-store' });
+      if(r.ok){
+        const geo = await r.json();
+        metarStations = (geo.features || []).map(f => {
+          f.properties._dist_nm = distNM(VEDK.lat, VEDK.lon, f.geometry.coordinates[1], f.geometry.coordinates[0]);
+          f.properties._brg = bearingTo(VEDK.lat, VEDK.lon, f.geometry.coordinates[1], f.geometry.coordinates[0]);
+          return f;
+        }).sort((a,b) => a.properties._dist_nm - b.properties._dist_nm);
+        dataSource = 'CACHE';
+        lastFetchTime = new Date();
+        lastDataTime  = newestObsTime(metarStations) ||
+                        (geo.generated_at_utc ? new Date(geo.generated_at_utc) : new Date());
+        loaded = true;
+      }
+    } catch(err){ /* fall through */ }
+  }
+
+  // ── 3. Built-in demo (last resort) ───────────────────────────
+  if(!loaded){
+    loadDemoMetars();
+    dataSource = 'DEMO';
+    lastFetchTime = new Date();
+    lastDataTime  = newestObsTime(metarStations) || new Date();
+  }
+
+  updateDataFreshness();
   drawMetarStations();
   updateStationStats();
   updateRibbonMetars();
   updateRunwayAdvisor();
-
   updateAreaStatus();
+  if(is3D && MAP3D) { try { refresh3DMarkers(); } catch(e){} }
+
+  if(loaded) showToast(`✓ METAR refreshed · ${metarStations.length} stations (${dataSource})`);
 
   // QGIS LFA sectors (optional external polygon)
   try {
-    const r = await fetch(`data/lfa_sectors.geojson?t=${Date.now()}`);
+    const r = await fetch(`data/lfa_sectors.geojson?t=${Date.now()}`, { cache:'no-store' });
     if(r.ok){
       const geo = await r.json();
       lfaFeatures = geo.features || [];
@@ -1481,6 +1631,94 @@ async function loadAllData(){
   } catch(err) { /* silent */ }
   drawQgisLfa();
 }
+
+/* ── AWC record → our station feature (ports the Python logic) ── */
+function normAltim(a){
+  if(a == null) return null;
+  let v = parseFloat(a);
+  if(isNaN(v)) return null;
+  if(v < 100) v = v * 33.8639;   // inHg → hPa
+  return Math.round(v * 10) / 10;
+}
+function visToSM(v){
+  if(v == null) return null;
+  const n = parseFloat(String(v).replace('+',''));
+  return isNaN(n) ? null : n;
+}
+function ceilingFt(clouds){
+  if(!Array.isArray(clouds)) return null;
+  const bases = clouds.filter(c => ['BKN','OVC','VV'].includes(c.cover) && c.base != null).map(c => c.base);
+  return bases.length ? Math.min(...bases) : null;
+}
+function classifyRules(visSM, ceil){
+  const vis = visSM == null ? 10 : visSM;
+  const c = ceil == null ? 99999 : ceil;
+  if(c < 500 || vis < 1) return 'LIFR';
+  if(c < 1000 || vis < 3) return 'IFR';
+  if(c <= 3000 || vis <= 5) return 'MVFR';
+  return 'VFR';
+}
+function densityAlt(elevFt, altimHpa, tempC){
+  if(elevFt == null || altimHpa == null || tempC == null) return null;
+  const pa = elevFt + (1013.25 - altimHpa) * 30.0;
+  const isa = 15.0 - (1.98 * (pa / 1000.0));
+  return Math.round(pa + 120.0 * (tempC - isa));
+}
+function newestObsTime(stations){
+  let newest = null;
+  stations.forEach(f => {
+    const t = f.properties.obs_time;
+    if(t){ const d = new Date(t); if(!isNaN(d) && (!newest || d > newest)) newest = d; }
+  });
+  return newest;
+}
+
+function buildStationsFromAWC(arr){
+  // keep only the most recent record per station
+  const latest = {};
+  arr.forEach(item => { const id = item.icaoId; if(id && !latest[id]) latest[id] = item; });
+
+  const feats = Object.values(latest).map(item => {
+    const icao = item.icaoId;
+    const meta = STATION_META_JS[icao] || {};
+    const lat = item.lat ?? meta.lat, lon = item.lon ?? meta.lon;
+    const elev = (item.elev != null ? Math.round(item.elev * 3.28084) : null) ?? meta.elev_ft ?? STATION_ELEV[icao] ?? 0;
+    const qnh = normAltim(item.altim);
+    const visSM = visToSM(item.visib);
+    const ceil = ceilingFt(item.clouds);
+    const cat = item.fltCat || classifyRules(visSM, ceil);
+    const f = {
+      type:'Feature',
+      geometry:{ type:'Point', coordinates:[lon, lat] },
+      properties:{
+        icao, name: meta.name || icao,
+        flight_category: cat,
+        temp_c: item.temp ?? null,
+        dewpoint_c: item.dewp ?? null,
+        qnh_hpa: qnh,
+        wind_dir: item.wdir, wind_speed_kt: item.wspd, wind_gust_kt: item.wgst,
+        visibility_sm: visSM, ceiling_ft: ceil,
+        density_altitude_ft: densityAlt(elev, qnh, item.temp),
+        raw_metar: item.rawOb || '',
+        obs_time: item.reportTime || item.receiptTime || new Date().toISOString()
+      }
+    };
+    f.properties._dist_nm = distNM(VEDK.lat, VEDK.lon, lat, lon);
+    f.properties._brg = bearingTo(VEDK.lat, VEDK.lon, lat, lon);
+    return f;
+  });
+  feats.sort((a,b) => a.properties._dist_nm - b.properties._dist_nm);
+  return feats;
+}
+
+/* Station metadata for client-side fetch (mirrors the Python STATION_META) */
+const STATION_META_JS = {
+  VEDO:{ name:"Deoghar Airport", lat:24.4450, lon:86.7069, elev_ft:814 },
+  VEDG:{ name:"Kazi Nazrul Islam (Durgapur)", lat:23.6225, lon:87.2430, elev_ft:285 },
+  VERC:{ name:"Birsa Munda (Ranchi)", lat:23.3143, lon:85.3217, elev_ft:2146 },
+  VECC:{ name:"Netaji S.C. Bose (Kolkata)", lat:22.6547, lon:88.4467, elev_ft:16 },
+  VEPT:{ name:"Jay Prakash Narayan (Patna)", lat:25.5913, lon:85.0880, elev_ft:170 }
+};
 
 /* Built-in demo METAR data (so the briefing wall is instantly useful without Python running) */
 function loadDemoMetars(){
@@ -1595,6 +1833,12 @@ function updateRibbonMetars(){
     const dist = p._dist_nm.toFixed(0);
     const brg = p._brg.toFixed(0).padStart(3,'0');
     const gustTxt = p.wind_gust_kt ? `<span style="color:var(--accent3)">G${p.wind_gust_kt}</span>` : '';
+    // Raw METAR string, prefixed with "METAR" if the source didn't include it
+    let raw = (p.raw_metar || '').trim();
+    if(raw && !/^(METAR|SPECI)\b/i.test(raw)) raw = 'METAR ' + raw;
+    const rawLine = raw
+      ? `<div class="metar-raw-line" title="${raw.replace(/"/g,'&quot;')}">${raw}</div>`
+      : '';
     box.innerHTML = `
       <div class="metar-head">
         <span class="cat-dot ${p.flight_category}"></span>
@@ -1608,6 +1852,7 @@ function updateRibbonMetars(){
         <span><i class="fa-solid fa-eye"></i> <b>${p.visibility_sm ?? '—'}</b> SM</span>
         <span><i class="fa-solid fa-gauge"></i> <b>${p.qnh_hpa ?? '—'}</b></span>
       </div>
+      ${rawLine}
     `;
   }
 }
@@ -1656,38 +1901,58 @@ function updateDataFreshness(){
   const srcBadge = document.getElementById('srcBadge');
   const lastVal = document.getElementById('lastUpdVal');
   const lastRel = document.getElementById('lastUpdRel');
+  const lastLive = document.getElementById('lastLive');
 
+  // Source badge (LIVE / CACHE / DEMO)
+  const badgeClass = { LIVE:'LIVE', CACHE:'FALLBACK', DEMO:'OFFLINE', INIT:'OFFLINE' };
   srcBadge.textContent = dataSource;
-  srcBadge.className = 'src-badge ' + dataSource;
+  srcBadge.className = 'src-badge ' + (badgeClass[dataSource] || 'OFFLINE');
   const tips = {
-    LIVE: 'LIVE — fresh METAR pulled from aviationweather.gov by fetch_metar.py.',
-    FALLBACK: 'FALLBACK — fetch_metar.py ran but AWC was unreachable; showing cached/simulated values.',
-    OFFLINE: 'OFFLINE — page could not read data/regional_metar.geojson (likely opened via file:// or the fetcher has not run). Showing built-in demo data.'
+    LIVE: 'LIVE — METAR pulled directly from aviationweather.gov by your browser.',
+    CACHE: 'CACHE — served from the committed data file (GitHub Action). Direct AWC fetch was unavailable.',
+    DEMO: 'DEMO — could not reach AWC or the data file; showing built-in sample data.'
   };
   srcBadge.title = tips[dataSource] || '';
 
   const st = document.getElementById('st-status');
-  st.textContent = dataSource;
-  st.className = dataSource === 'LIVE' ? 'ok' : (dataSource === 'FALLBACK' ? 'warn' : 'err');
+  if(st){
+    st.textContent = dataSource;
+    st.className = dataSource === 'LIVE' ? 'ok' : (dataSource === 'CACHE' ? 'warn' : 'err');
+  }
 
+  // Latest OBSERVATION time (the true METAR issue time)
   if(!lastDataTime){
     lastVal.textContent = '—';
     lastRel.innerHTML = `<span class="pulse-dot"></span>Awaiting data…`;
-    return;
+  } else {
+    const h = String(lastDataTime.getUTCHours()).padStart(2,'0');
+    const m = String(lastDataTime.getUTCMinutes()).padStart(2,'0');
+    lastVal.textContent = `${h}${m}Z`;
+    const ageMin = Math.floor((Date.now() - lastDataTime.getTime()) / 60000);
+    let relTxt, cls;
+    if(ageMin < 1) { relTxt = 'obs just now'; cls = 'fresh'; }
+    else if(ageMin < 75) { relTxt = `obs ${ageMin} min ago`; cls = ageMin <= 60 ? 'fresh' : 'stale'; }
+    else { relTxt = `obs ${Math.floor(ageMin/60)}h ${ageMin%60}m ago`; cls = 'stale'; }
+    lastRel.innerHTML = `<span class="pulse-dot"></span>${relTxt}`;
+    lastRel.className = 'last-upd-rel ' + cls;
   }
-  const h = String(lastDataTime.getUTCHours()).padStart(2,'0');
-  const m = String(lastDataTime.getUTCMinutes()).padStart(2,'0');
-  lastVal.textContent = `${h}:${m}Z`;
 
-  const ageMs = Date.now() - lastDataTime.getTime();
-  const ageMin = Math.floor(ageMs / 60000);
-  let relTxt, cls;
-  if(ageMin < 1) { relTxt = 'just now'; cls = 'fresh'; }
-  else if(ageMin < 30) { relTxt = `${ageMin} min ago`; cls = 'fresh'; }
-  else if(ageMin < 60) { relTxt = `${ageMin} min ago`; cls = 'stale'; }
-  else { relTxt = `${Math.floor(ageMin/60)}h ${ageMin%60}m ago`; cls = 'stale'; }
-  lastRel.innerHTML = `<span class="pulse-dot"></span>${relTxt}`;
-  lastRel.className = 'last-upd-rel ' + cls;
+  // Liveness: when the browser last pulled (resets every refresh) — this is
+  // what tells the user the auto-refresh is actually alive.
+  if(lastLive){
+    if(!lastFetchTime){
+      lastLive.textContent = '⟳ connecting…';
+      lastLive.className = 'last-live';
+    } else {
+      const secs = Math.floor((Date.now() - lastFetchTime.getTime()) / 1000);
+      let t;
+      if(secs < 5) t = 'checked just now';
+      else if(secs < 60) t = `checked ${secs}s ago`;
+      else { const mm = Math.floor(secs/60); t = `checked ${mm}m ${secs%60}s ago`; }
+      lastLive.textContent = `⟳ ${t} · auto ${REFRESH_MIN}m`;
+      lastLive.className = 'last-live ' + (secs < REFRESH_MIN*60 + 90 ? 'ok' : 'warn');
+    }
+  }
 }
 
 /* ═══════════════════════════════════════
@@ -2213,26 +2478,35 @@ function init3DMap(lng, lat, zoom){
   });
 }
 
+let station3DMarkers = [], vedk3DMarker = null;
 function add3DMarkers(){
   if(!MAP3D) return;
-  // VEDK home
-  const vedkEl = document.createElement('div');
-  vedkEl.innerHTML = `<div style="width:18px;height:18px;border-radius:50%;background:var(--home);border:2px solid #fff;box-shadow:0 0 12px rgba(245,158,11,.8)"></div>`;
-  new maplibregl.Marker({ element:vedkEl })
-    .setLngLat([VEDK.lon, VEDK.lat])
-    .setPopup(new maplibregl.Popup({ offset:14 }).setHTML(`<b style="color:#f59e0b">VEDK — Dumka</b><br>470 ft · RWY 09/27`))
-    .addTo(MAP3D);
-  // Stations
+  // VEDK home (once)
+  if(!vedk3DMarker){
+    const vedkEl = document.createElement('div');
+    vedkEl.innerHTML = `<div style="width:18px;height:18px;border-radius:50%;background:var(--home);border:2px solid #fff;box-shadow:0 0 12px rgba(245,158,11,.8)"></div>`;
+    vedk3DMarker = new maplibregl.Marker({ element:vedkEl })
+      .setLngLat([VEDK.lon, VEDK.lat])
+      .setPopup(new maplibregl.Popup({ offset:14 }).setHTML(`<b style="color:#f59e0b">VEDK — Dumka</b><br>470 ft · RWY 09/27`))
+      .addTo(MAP3D);
+  }
+  refresh3DMarkers();
+}
+function refresh3DMarkers(){
+  if(!MAP3D) return;
+  station3DMarkers.forEach(m => m.remove());
+  station3DMarkers = [];
   const colorMap = { VFR:'#22c55e', MVFR:'#3b82f6', IFR:'#ef4444', LIFR:'#d946ef' };
   metarStations.forEach(f => {
     const p = f.properties, [lon,lat] = f.geometry.coordinates;
     const el = document.createElement('div');
     const col = colorMap[p.flight_category] || '#94a3b8';
     el.innerHTML = `<div style="width:14px;height:14px;border-radius:50%;background:${col};border:2px solid #fff;box-shadow:0 0 8px ${col}"></div>`;
-    new maplibregl.Marker({ element:el })
+    const mk = new maplibregl.Marker({ element:el })
       .setLngLat([lon,lat])
       .setPopup(new maplibregl.Popup({ offset:12 }).setHTML(`<b>${p.icao}</b> · ${p.flight_category}<br>${p.wind_dir??'VRB'}°/${p.wind_speed_kt??0}kt · ${p.temp_c??'—'}°C`))
       .addTo(MAP3D);
+    station3DMarkers.push(mk);
   });
 }
 
@@ -2366,20 +2640,37 @@ window.addEventListener('load', () => {
     if(st){ st.textContent = 'MAP OFFLINE'; st.className = 'err'; }
   }
 
-  // Data loading is independent of the map — ribbon/runway/astro still populate
+  // Data loading is independent of the map — ribbon/runway/astro still populate.
+  // Browser pulls METAR directly from AWC, so freshness does NOT depend on the
+  // backend cron running.
   loadAllData();
-  setInterval(loadAllData, 5 * 60 * 1000); // auto refresh every 5 min
+  setInterval(loadAllData, REFRESH_MIN * 60 * 1000);
 
-  // Countdown for next refresh
-  let secs = 300;
+  // Countdown for next refresh (resets each cycle)
+  let secs = REFRESH_MIN * 60;
   setInterval(() => {
     secs--;
-    if(secs <= 0) secs = 300;
+    if(secs <= 0) secs = REFRESH_MIN * 60;
     const m = Math.floor(secs/60);
     const s = secs % 60;
     const el = document.getElementById('st-next');
     if(el) el.textContent = `${m}m ${String(s).padStart(2,'0')}s`;
   }, 1000);
+
+  // On small screens, start with the sidebar collapsed so it doesn't cover
+  // the map; the Layers button opens it as an overlay.
+  if(window.innerWidth <= 920){
+    const sb = document.getElementById('sb');
+    sb.classList.add('hide');
+    document.getElementById('btnSb').classList.remove('on');
+  }
+
+  // Keep the map correctly sized on any viewport change (TV, tablet rotate…)
+  let rsz;
+  window.addEventListener('resize', () => {
+    clearTimeout(rsz);
+    rsz = setTimeout(() => { if(MAP) MAP.invalidateSize(); if(is3D && MAP3D) MAP3D.resize(); }, 200);
+  });
 });
 </script>
 </body>
