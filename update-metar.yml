@@ -18,7 +18,8 @@ name: Update METAR data
 
 on:
   schedule:
-    - cron: "*/15 * * * *"     # every 15 minutes (UTC)
+    - cron: "7,37 * * * *" 
+#    - cron: "*/15 * * * *"     # every 15 minutes (UTC)
   workflow_dispatch: {}         # lets you trigger it manually from the Actions tab
 
 # The job needs permission to commit the refreshed data back to the repo
