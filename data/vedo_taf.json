@@ -1,10 +1,10 @@
 {
   "station": "VEDO",
   "name": "Deoghar Airport",
-  "raw_taf": "TAF VEDO 220800Z 2209/2218 27010KT 3500 HZ FEW020 SCT025 BKN100 BECMG 2214/2216 32005KT 2000 BR FEW020 SCT100",
-  "issue_time": "2026-11-22T08:00:00.000Z",
-  "valid_from": 1795338000,
-  "valid_to": 1795370400,
+  "raw_taf": "TAF VEDO 230500Z 2306/2315 32010KT 3500 HZ SCT018 BKN090 BECMG 2313/2315 34005KT 2000 BR",
+  "issue_time": "2026-11-23T05:00:00.000Z",
+  "valid_from": 1795413600,
+  "valid_to": 1795446000,
   "source": "LIVE",
-  "generated_at_utc": "2026-11-23T04:55:37.382815+00:00"
+  "generated_at_utc": "2026-11-23T05:01:18.755991+00:00"
 }
