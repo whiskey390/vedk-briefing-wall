@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-23T01:25:32.565922+00:00",
+  "generated_at_utc": "2026-11-23T01:31:09.000013+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDG",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 930,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-23T01:25:32.565900+00:00"
+        "updated_utc": "2026-11-23T01:31:09.000007+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 954,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-23T01:25:32.565914+00:00"
+        "updated_utc": "2026-11-23T01:31:08.999999+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 1112,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-23T01:25:32.565884+00:00"
+        "updated_utc": "2026-11-23T01:31:08.999987+00:00"
       }
     },
     {
@@ -108,21 +108,21 @@
       "properties": {
         "icao": "VEPT",
         "name": "Jay Prakash Narayan (Patna)",
-        "raw_metar": "METAR VEPT 230100Z 32004KT 0700 R25/2000 R07/1800 FG VV/// 21/21 Q1018 NOSIG",
-        "obs_time": "2026-11-23T01:00:00.000Z",
+        "raw_metar": "METAR VEPT 230130Z 32003KT 0700 R25/2000 R07/2000 FG VV/// 21/21 Q1018 BECMG 0800 FG",
+        "obs_time": "2026-11-23T01:30:00.000Z",
         "flight_category": "LIFR",
         "temp_c": 21,
         "dewpoint_c": 21,
         "qnh_hpa": 1018.0,
         "wind_dir": 320,
-        "wind_speed_kt": 4,
+        "wind_speed_kt": 3,
         "wind_gust_kt": null,
         "visibility_sm": 0.43,
         "ceiling_ft": null,
         "density_altitude_ft": 609,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-23T01:25:32.565846+00:00"
+        "updated_utc": "2026-11-23T01:31:08.999941+00:00"
       }
     }
   ]
