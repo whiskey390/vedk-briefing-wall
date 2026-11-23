@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-23T14:31:05.276216+00:00",
+  "generated_at_utc": "2026-11-23T14:35:37.647590+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -21,21 +21,21 @@
       "properties": {
         "icao": "VEDO",
         "name": "Deoghar Airport",
-        "raw_metar": "METAR VEDO 231400Z 34003KT 1800 BR NSC 20/18 Q1018 NOSIG",
-        "obs_time": "2026-11-23T14:00:00.000Z",
+        "raw_metar": "METAR VEDO 231430Z 34003KT 1800 BR NSC 20/18 Q1019 NOSIG",
+        "obs_time": "2026-11-23T14:30:00.000Z",
         "flight_category": "IFR",
         "temp_c": 20,
         "dewpoint_c": 18,
-        "qnh_hpa": 1018.0,
+        "qnh_hpa": 1019.0,
         "wind_dir": 340,
         "wind_speed_kt": 3,
         "wind_gust_kt": null,
         "visibility_sm": 1.12,
         "ceiling_ft": null,
-        "density_altitude_ft": 726,
+        "density_altitude_ft": 688,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-23T14:31:05.276055+00:00"
+        "updated_utc": "2026-11-23T14:35:37.647559+00:00"
       }
     },
     {
@@ -50,8 +50,8 @@
       "properties": {
         "icao": "VEDG",
         "name": "Kazi Nazrul Islam (Durgapur)",
-        "raw_metar": "METAR VEDG 231400Z 00000KT 4000 HZ SCT018 BKN100 21/21 Q1018 NOSIG",
-        "obs_time": "2026-11-23T14:00:00.000Z",
+        "raw_metar": "METAR VEDG 231430Z 00000KT 3200 HZ SCT018 BKN100 21/21 Q1018 BECMG 3000 BR",
+        "obs_time": "2026-11-23T14:30:00.000Z",
         "flight_category": "IFR",
         "temp_c": 21,
         "dewpoint_c": 21,
@@ -59,12 +59,12 @@
         "wind_dir": 0,
         "wind_speed_kt": 0,
         "wind_gust_kt": null,
-        "visibility_sm": 2.49,
+        "visibility_sm": 1.99,
         "ceiling_ft": 10000,
         "density_altitude_ft": 653,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-23T14:31:05.276203+00:00"
+        "updated_utc": "2026-11-23T14:35:37.647506+00:00"
       }
     },
     {
@@ -79,21 +79,21 @@
       "properties": {
         "icao": "VECC",
         "name": "Netaji Subhas Chandra Bose (Kolkata)",
-        "raw_metar": "METAR VECC 231400Z 34004KT 3200 HZ FEW100 25/23 Q1017 NOSIG",
-        "obs_time": "2026-11-23T14:00:00.000Z",
+        "raw_metar": "METAR VECC 231430Z 34003KT 3200 HZ FEW100 25/23 Q1017 NOSIG",
+        "obs_time": "2026-11-23T14:30:00.000Z",
         "flight_category": "IFR",
         "temp_c": 25,
         "dewpoint_c": 23,
         "qnh_hpa": 1017.0,
         "wind_dir": 340,
-        "wind_speed_kt": 4,
+        "wind_speed_kt": 3,
         "wind_gust_kt": null,
         "visibility_sm": 1.99,
         "ceiling_ft": null,
         "density_altitude_ft": 1074,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-23T14:31:05.276100+00:00"
+        "updated_utc": "2026-11-23T14:35:37.647571+00:00"
       }
     },
     {
@@ -122,7 +122,7 @@
         "density_altitude_ft": 955,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-23T14:31:05.276158+00:00"
+        "updated_utc": "2026-11-23T14:35:37.647582+00:00"
       }
     },
     {
@@ -137,21 +137,21 @@
       "properties": {
         "icao": "VEPT",
         "name": "Jay Prakash Narayan (Patna)",
-        "raw_metar": "METAR VEPT 231400Z 25003KT 3500 BR NSC 21/17 Q1017 NOSIG",
-        "obs_time": "2026-11-23T14:00:00.000Z",
+        "raw_metar": "METAR VEPT 231430Z 24003KT 3500 BR NSC 22/18 Q1018 NOSIG",
+        "obs_time": "2026-11-23T14:30:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 21,
-        "dewpoint_c": 17,
-        "qnh_hpa": 1017.0,
-        "wind_dir": 250,
+        "temp_c": 22,
+        "dewpoint_c": 18,
+        "qnh_hpa": 1018.0,
+        "wind_dir": 240,
         "wind_speed_kt": 3,
         "wind_gust_kt": null,
         "visibility_sm": 2.17,
         "ceiling_ft": null,
-        "density_altitude_ft": 646,
+        "density_altitude_ft": 729,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-23T14:31:05.276182+00:00"
+        "updated_utc": "2026-11-23T14:35:37.647542+00:00"
       }
     }
   ]
