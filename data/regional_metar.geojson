@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-23T00:01:23.636139+00:00",
+  "generated_at_utc": "2026-11-23T00:05:42.552964+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDG",
@@ -21,21 +21,21 @@
       "properties": {
         "icao": "VEDG",
         "name": "Kazi Nazrul Islam (Durgapur)",
-        "raw_metar": "METAR VEDG 222330Z 29002KT 2500 BR FEW020 SCT100 22/22 Q1016 NOSIG",
-        "obs_time": "2026-11-22T23:30:00.000Z",
+        "raw_metar": "METAR VEDG 230000Z 28002KT 2200 BR FEW020 SCT100 22/22 Q1016 NOSIG",
+        "obs_time": "2026-11-23T00:00:00.000Z",
         "flight_category": "IFR",
         "temp_c": 22,
         "dewpoint_c": 22,
         "qnh_hpa": 1016.0,
-        "wind_dir": 290,
+        "wind_dir": 280,
         "wind_speed_kt": 2,
         "wind_gust_kt": null,
-        "visibility_sm": 1.55,
+        "visibility_sm": 1.37,
         "ceiling_ft": null,
         "density_altitude_ft": 847,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-23T00:01:23.636107+00:00"
+        "updated_utc": "2026-11-23T00:05:42.552904+00:00"
       }
     },
     {
@@ -50,21 +50,21 @@
       "properties": {
         "icao": "VECC",
         "name": "Netaji Subhas Chandra Bose (Kolkata)",
-        "raw_metar": "METAR VECC 222330Z 00000KT 1200 R19L/1800 BR SCT018 SCT100 24/23 Q1015 BECMG 1500 BR",
-        "obs_time": "2026-11-22T23:30:00.000Z",
-        "flight_category": "LIFR",
+        "raw_metar": "METAR VECC 230000Z 00000KT 2000 BR SCT018 SCT100 24/23 Q1016 NOSIG",
+        "obs_time": "2026-11-23T00:00:00.000Z",
+        "flight_category": "IFR",
         "temp_c": 24,
         "dewpoint_c": 23,
-        "qnh_hpa": 1015.0,
+        "qnh_hpa": 1016.0,
         "wind_dir": 0,
         "wind_speed_kt": 0,
         "wind_gust_kt": null,
-        "visibility_sm": 0.75,
+        "visibility_sm": 1.24,
         "ceiling_ft": null,
-        "density_altitude_ft": 1029,
+        "density_altitude_ft": 992,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-23T00:01:23.636086+00:00"
+        "updated_utc": "2026-11-23T00:05:42.552937+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 1029,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-23T00:01:23.636126+00:00"
+        "updated_utc": "2026-11-23T00:05:42.552958+00:00"
       }
     },
     {
@@ -122,7 +122,7 @@
         "density_altitude_ft": 526,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-23T00:01:23.636037+00:00"
+        "updated_utc": "2026-11-23T00:05:42.552948+00:00"
       }
     }
   ]
