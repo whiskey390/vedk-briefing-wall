@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-23T11:35:33.576331+00:00",
+  "generated_at_utc": "2026-11-23T11:40:48.412373+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 1123,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-23T11:35:33.576263+00:00"
+        "updated_utc": "2026-11-23T11:40:48.412325+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 1207,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-23T11:35:33.576323+00:00"
+        "updated_utc": "2026-11-23T11:40:48.412354+00:00"
       }
     },
     {
@@ -79,7 +79,7 @@
       "properties": {
         "icao": "VECC",
         "name": "Netaji Subhas Chandra Bose (Kolkata)",
-        "raw_metar": "METAR VECC 231130Z 33007KT 3200 HZ SCT018 SCT100 27/23 Q1015 BECMG 3000 HZ",
+        "raw_metar": "METAR VECC 231130Z 33007KT 3200 HZ SCT018 SCT100 27/23 Q1015 BECMG 30 00 HZ",
         "obs_time": "2026-11-23T11:30:00.000Z",
         "flight_category": "IFR",
         "temp_c": 27,
@@ -93,7 +93,7 @@
         "density_altitude_ft": 1389,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-23T11:35:33.576292+00:00"
+        "updated_utc": "2026-11-23T11:40:48.412340+00:00"
       }
     },
     {
@@ -122,7 +122,7 @@
         "density_altitude_ft": 1389,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-23T11:35:33.576306+00:00"
+        "updated_utc": "2026-11-23T11:40:48.412366+00:00"
       }
     },
     {
@@ -137,10 +137,10 @@
       "properties": {
         "icao": "VEPT",
         "name": "Jay Prakash Narayan (Patna)",
-        "raw_metar": "METAR VEPT 231100Z 27005KT 4000 HZ NSC 26/16 Q1016 NOSIG",
-        "obs_time": "2026-11-23T11:00:00.000Z",
+        "raw_metar": "METAR VEPT 231130Z 27005KT 4000 HZ NSC 25/16 Q1016 NOSIG",
+        "obs_time": "2026-11-23T11:30:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 26,
+        "temp_c": 25,
         "dewpoint_c": 16,
         "qnh_hpa": 1016.0,
         "wind_dir": 270,
@@ -148,10 +148,10 @@
         "wind_gust_kt": null,
         "visibility_sm": 2.49,
         "ceiling_ft": null,
-        "density_altitude_ft": 1283,
+        "density_altitude_ft": 1163,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-23T11:35:33.576315+00:00"
+        "updated_utc": "2026-11-23T11:40:48.412292+00:00"
       }
     }
   ]
