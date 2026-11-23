@@ -506,6 +506,43 @@ body{background:var(--bg-root);color:var(--text-hi);font-family:var(--fn);font-s
 .maplibregl-ctrl-group button{background:var(--bg-panel)!important;border-bottom:1px solid var(--border)!important}
 .maplibregl-ctrl-group button:hover{background:var(--bg-hover)!important}
 
+/* Weather overlays — sidebar panel */
+.wx-panel{padding:10px 12px}
+.wx-btns{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-bottom:10px}
+.wx-btn{display:flex;flex-direction:column;align-items:center;gap:5px;padding:11px 6px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r);color:var(--text-mid);cursor:pointer;font-family:var(--fn);font-size:11px;font-weight:600;transition:all .18s}
+.wx-btn i{font-size:17px}
+.wx-btn:hover{border-color:var(--mvfr);color:var(--text-hi)}
+.wx-btn.on{border-color:var(--mvfr);color:#7db8ff;background:rgba(59,130,246,.12);box-shadow:0 0 12px rgba(59,130,246,.2)}
+.wx-sec-h{font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--text-lo);margin-bottom:8px}
+.wx-op-row{display:flex;align-items:center;gap:8px;font-family:var(--fm);font-size:10px;color:var(--text-lo);margin-top:9px}
+.wx-op-row input{flex:1;accent-color:var(--mvfr)}
+.wx-chips{display:flex;flex-wrap:wrap;gap:5px}
+.wx-chip{display:inline-flex;align-items:center;gap:5px;padding:6px 10px;background:var(--bg-card);border:1px solid var(--border);border-radius:14px;color:var(--text-mid);cursor:pointer;font-family:var(--fn);font-size:10px;font-weight:600;transition:all .15s}
+.wx-chip i{font-size:10px;opacity:.85}
+.wx-chip:hover{border-color:var(--accent5);color:var(--text-hi)}
+.wx-chip.on{border-color:var(--accent5);color:var(--accent5);background:rgba(240,192,64,.12)}
+/* Colour-scale legend for the active OpenWeatherMap layer */
+.wx-legend{display:none;margin-top:10px;padding:9px 10px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--r)}
+.wx-legend.show{display:block}
+.wxl-title{font-family:var(--fn);font-size:10.5px;font-weight:700;color:var(--text-hi);margin-bottom:6px}
+.wxl-title i{color:var(--mvfr);margin-right:4px}
+.wxl-title span{color:var(--text-lo);font-weight:500}
+.wxl-bar{height:11px;border-radius:3px;border:1px solid var(--border)}
+.wxl-ticks{display:flex;justify-content:space-between;font-family:var(--fm);font-size:8.5px;color:var(--text-mid);margin-top:3px}
+.wxl-src{font-family:var(--fm);font-size:8px;color:var(--text-lo);margin-top:5px;letter-spacing:.3px}
+.wx-hint{font-size:9.5px;color:var(--text-lo);line-height:1.55;margin-top:11px}
+.wx-hint i{color:var(--mvfr);margin-right:3px}
+/* Windy interactive forecast overlay (covers the map area on demand) */
+.windy-overlay{position:absolute;inset:0;z-index:650;background:var(--bg-panel);display:none;flex-direction:column}
+.windy-overlay.show{display:flex}
+.windy-bar{display:flex;align-items:center;gap:10px;padding:8px 14px;background:rgba(var(--panel-rgb),.97);border-bottom:1px solid var(--mvfr);flex-shrink:0}
+.windy-title{font-family:var(--fn);font-size:12px;font-weight:600;color:var(--text-hi)}
+.windy-title b{color:#7db8ff}
+.windy-note{font-family:var(--fm);font-size:9px;color:var(--text-lo);margin-left:4px}
+.windy-x{margin-left:auto;display:inline-flex;align-items:center;gap:5px;background:var(--bg-card);border:1px solid var(--border);color:var(--text-mid);cursor:pointer;font-family:var(--fn);font-size:11px;font-weight:600;padding:5px 11px;border-radius:var(--r);transition:all .15s}
+.windy-x:hover{border-color:var(--accent3);color:var(--accent3)}
+.windy-overlay iframe{flex:1;width:100%;border:0;background:#0a1520}
+
 /* Measure / route planning box */
 .measure-box{
   position:absolute;bottom:18px;right:58px;z-index:500;width:250px;
@@ -894,6 +931,43 @@ body{background:var(--bg-root);color:var(--text-hi);font-family:var(--fn);font-s
       </div>
     </div>
 
+    <!-- Weather overlays -->
+    <div class="ps">
+      <div class="ps-h closed" onclick="togglePs('psWx',this)">
+        <i class="fa-solid fa-cloud-showers-heavy ico"></i>
+        <span>Weather Overlays</span>
+        <i class="fa-solid fa-chevron-down chev"></i>
+      </div>
+      <div class="ps-b shut" id="psWx" style="max-height:560px">
+        <div class="wx-panel">
+          <div class="wx-sec-h">OpenWeatherMap · map overlay</div>
+          <div class="wx-chips" id="owmChips">
+            <button class="wx-chip" data-owm="precipitation_new" onclick="toggleOWM('precipitation_new',this)"><i class="fa-solid fa-cloud-showers-heavy"></i> Precip</button>
+            <button class="wx-chip" data-owm="clouds_new" onclick="toggleOWM('clouds_new',this)"><i class="fa-solid fa-cloud"></i> Clouds</button>
+            <button class="wx-chip" data-owm="wind_new" onclick="toggleOWM('wind_new',this)"><i class="fa-solid fa-wind"></i> Wind</button>
+            <button class="wx-chip" data-owm="temp_new" onclick="toggleOWM('temp_new',this)"><i class="fa-solid fa-temperature-half"></i> Temp</button>
+            <button class="wx-chip" data-owm="pressure_new" onclick="toggleOWM('pressure_new',this)"><i class="fa-solid fa-gauge-high"></i> Pressure</button>
+          </div>
+          <div class="wx-op-row">
+            <span>Opacity</span>
+            <input type="range" id="wxOpacity" min="0.2" max="1" step="0.05" value="0.75" oninput="setWeatherOpacity(this.value)"/>
+            <span id="wxOpacityVal">75%</span>
+          </div>
+          <div class="wx-legend" id="wxLegend"></div>
+
+          <div class="wx-sec-h" style="margin-top:13px;border-top:1px solid var(--border);padding-top:11px">Windy · interactive forecast</div>
+          <div class="wx-chips" id="windyChips">
+            <button class="wx-chip" data-windy="wind" onclick="toggleWindy('wind',this)"><i class="fa-solid fa-wind"></i> Wind</button>
+            <button class="wx-chip" data-windy="rain" onclick="toggleWindy('rain',this)"><i class="fa-solid fa-cloud-rain"></i> Rain</button>
+            <button class="wx-chip" data-windy="temp" onclick="toggleWindy('temp',this)"><i class="fa-solid fa-temperature-half"></i> Temp</button>
+            <button class="wx-chip" data-windy="clouds" onclick="toggleWindy('clouds',this)"><i class="fa-solid fa-cloud"></i> Clouds</button>
+            <button class="wx-chip" data-windy="pressure" onclick="toggleWindy('pressure',this)"><i class="fa-solid fa-gauge-high"></i> Pressure</button>
+          </div>
+          <div class="wx-hint"><i class="fa-solid fa-circle-info"></i> <b>OpenWeatherMap</b> paints colour tiles over this map with the legend below. <b>Windy</b> opens the full animated forecast map (its own legend, wind particles &amp; time slider). Both keys are built in — nothing to sign up for.</div>
+        </div>
+      </div>
+    </div>
+
     <!-- Runway preference panel -->
     <div class="ps">
       <div class="ps-h closed" onclick="togglePs('psRwy',this)">
@@ -1039,6 +1113,18 @@ body{background:var(--bg-root);color:var(--text-hi);font-family:var(--fn);font-s
     <div class="map-chip">
       <i class="fa-solid fa-plane-up"></i>
       <span><b>VEDK</b> · 24.2297°N 87.2697°E · 470 ft · RWY 09/27</span>
+    </div>
+
+    <!-- Windy interactive forecast overlay -->
+    <div class="windy-overlay" id="windyOverlay">
+      <div class="windy-bar">
+        <i class="fa-solid fa-wind" style="color:#7db8ff"></i>
+        <span class="windy-title">Windy forecast · <b id="windyTitleLayer">Wind</b></span>
+        <span class="windy-note">Animated · use Windy's own layer menu &amp; time slider · legend bottom-left</span>
+        <button class="windy-x" onclick="closeWindy()" title="Close Windy"><i class="fa-solid fa-xmark"></i> Close</button>
+      </div>
+      <iframe id="windyFrame" title="Windy forecast map" src="about:blank"
+              frameborder="0" allow="fullscreen" loading="lazy"></iframe>
     </div>
 
     <!-- Measure / route planning readout -->
@@ -1228,6 +1314,12 @@ let MAP3D = null, is3D = false, atmosphereOn = true;
 function initMap(){
   MAP = L.map('map', { center:[VEDK.lat,VEDK.lon], zoom:DEFAULT_ZOOM, zoomControl:true, preferCanvas:false });
   L.control.scale({ position:'bottomright', metric:true, imperial:true }).addTo(MAP);
+
+  // Dedicated pane so weather overlays sit ABOVE the basemap (tilePane 200)
+  // but BELOW the operational overlays (rings, METAR dots, labels).
+  MAP.createPane('weatherPane');
+  MAP.getPane('weatherPane').style.zIndex = 250;
+  MAP.getPane('weatherPane').style.pointerEvents = 'none';
 
   activateBM(activeBMKey);
 
@@ -1903,21 +1995,30 @@ function updateDataFreshness(){
   const lastRel = document.getElementById('lastUpdRel');
   const lastLive = document.getElementById('lastLive');
 
-  // Source badge (LIVE / CACHE / DEMO)
-  const badgeClass = { LIVE:'LIVE', CACHE:'FALLBACK', DEMO:'OFFLINE', INIT:'OFFLINE' };
-  srcBadge.textContent = dataSource;
-  srcBadge.className = 'src-badge ' + (badgeClass[dataSource] || 'OFFLINE');
+  // Source badge — labelled by DATA FRESHNESS, not by delivery path.
+  // The committed file is kept current by the GitHub Action, so a recent
+  // observation IS live weather whether it arrived by direct fetch or the feed.
+  // METAR is valid ~1 hour, so "fresh" = newest observation within 75 min.
+  const obsAgeMin = lastDataTime ? Math.floor((Date.now() - lastDataTime.getTime())/60000) : 9999;
+  let dispSource;
+  if(dataSource === 'DEMO')      dispSource = 'DEMO';
+  else if(obsAgeMin <= 75)       dispSource = 'LIVE';
+  else                           dispSource = 'STALE';
+  const badgeClass = { LIVE:'LIVE', STALE:'FALLBACK', DEMO:'OFFLINE', INIT:'OFFLINE' };
+  srcBadge.textContent = dispSource;
+  srcBadge.className = 'src-badge ' + (badgeClass[dispSource] || 'OFFLINE');
+  const via = dataSource === 'LIVE' ? 'direct AWC' : (dataSource === 'CACHE' ? 'GitHub Action feed' : 'built-in sample');
   const tips = {
-    LIVE: 'LIVE — METAR pulled directly from aviationweather.gov by your browser.',
-    CACHE: 'CACHE — served from the committed data file (GitHub Action). Direct AWC fetch was unavailable.',
-    DEMO: 'DEMO — could not reach AWC or the data file; showing built-in sample data.'
+    LIVE:  `LIVE — current METAR (newest obs ${obsAgeMin} min old), via ${via}. Matches the official site.`,
+    STALE: `STALE — newest observation is ${obsAgeMin} min old (>75 min); the feed may be delayed. Via ${via}.`,
+    DEMO:  'DEMO — could not reach AWC or the data file; showing built-in sample data.'
   };
-  srcBadge.title = tips[dataSource] || '';
+  srcBadge.title = tips[dispSource] || '';
 
   const st = document.getElementById('st-status');
   if(st){
-    st.textContent = dataSource;
-    st.className = dataSource === 'LIVE' ? 'ok' : (dataSource === 'CACHE' ? 'warn' : 'err');
+    st.textContent = dispSource;
+    st.className = dispSource === 'LIVE' ? 'ok' : (dispSource === 'STALE' ? 'warn' : 'err');
   }
 
   // Latest OBSERVATION time (the true METAR issue time)
@@ -2558,6 +2659,146 @@ function toggleAtmosphere(){
   atmosphereOn ? addSky() : removeSky();
 }
 function fly3DtoVEDK(){ if(MAP3D) MAP3D.flyTo({ center:[VEDK.lon, VEDK.lat], zoom:12, pitch:65, duration:1500 }); }
+
+/* ═══════════════════════════════════════
+   WEATHER OVERLAYS  (OpenWeatherMap tiles + Windy interactive)
+   ──────────────────────────────────────
+   Two self-contained sources, keys built in — no sign-up, no fetch of a
+   remote index (so nothing to be blocked by file:// or CORS):
+     • OpenWeatherMap — colour tile overlays (precip / clouds / wind / temp /
+       pressure) drawn straight onto this Leaflet map as <img> tiles, each
+       with a matching colour-scale legend.
+     • Windy — the full interactive windy.com forecast map (animated
+       particles + its own built-in legend) shown over the map on demand.
+   Tiles load as plain images, so they render from file://, http or https.
+   Zoom safety: OWM data is coarse past zoom ~10, so layers upscale beyond
+   that (never blank) and the map eases back to the deepest crisp level.
+═══════════════════════════════════════ */
+const OWM_KEY   = '8e5e6b80330a84e9e95c6818b64844f3';          // built in — OpenWeatherMap
+const WINDY_KEY = 'bz0fiHPXysUbbMRi5AuV6SMIusgPOZ6Y';          // built in — Windy (embed is keyless; kept for Point-Forecast use)
+const OWM_NATIVE_MAX = 10;   // deepest zoom OWM weather tiles carry real data; beyond this we upscale
+
+// Colour scales mirror OpenWeatherMap's default palettes closely enough to
+// read the map: ordered low → high, with the units and range labelled.
+const OWM_LAYERS = {
+  precipitation_new: { label:'Precipitation', unit:'mm/h', icon:'fa-cloud-showers-heavy',
+    stops:['rgba(130,180,255,0)','#7fb2ff','#3f7be0','#6a3de0','#b02fd0'],
+    ticks:['0','1','3','7','10+'] },
+  clouds_new: { label:'Cloud cover', unit:'%', icon:'fa-cloud',
+    stops:['rgba(236,242,248,0)','rgba(205,214,224,.55)','#c3ccd6','#99a4b1','#6b7682'],
+    ticks:['0','25','50','75','100'] },
+  wind_new: { label:'Wind speed', unit:'m/s', icon:'fa-wind',
+    stops:['#8fd3e8','#7bd389','#f6d743','#e5793a','#cc1b1b','#8e24aa'],
+    ticks:['0','10','20','30','40','50+'] },
+  temp_new: { label:'Temperature', unit:'°C', icon:'fa-temperature-half',
+    stops:['#8a2be2','#1d4ed8','#22b3c4','#54c66a','#f6d743','#e5793a','#cc1b1b'],
+    ticks:['-40','-20','0','10','20','30','40'] },
+  pressure_new: { label:'Sea-level pressure', unit:'hPa', icon:'fa-gauge-high',
+    stops:['#6a3de0','#2f6fe0','#54c66a','#f6d743','#e5793a','#cc1b1b'],
+    ticks:['950','980','1000','1013','1030','1050'] }
+};
+
+let owm = { layers:{}, opacity:0.75, active:null };
+
+function setWeatherOpacity(v){
+  owm.opacity = parseFloat(v);
+  const lbl = document.getElementById('wxOpacityVal');
+  if(lbl) lbl.textContent = Math.round(owm.opacity*100) + '%';
+  Object.values(owm.layers).forEach(l => { try { l.setOpacity(owm.opacity); } catch(e){} });
+}
+
+// Keep the user on the deepest zoom where the chosen source still paints real
+// tiles — they never land on an "empty" weather level.
+function owmEaseZoom(){
+  if(MAP && MAP.getZoom() > OWM_NATIVE_MAX){
+    MAP.setZoom(OWM_NATIVE_MAX);
+    showToast('Zoom eased to ' + OWM_NATIVE_MAX + ' — deepest level this weather layer renders');
+  }
+}
+
+function toggleOWM(layer, btn){
+  if(!MAP){ showToast('Map not ready'); return; }
+  if(owm.layers[layer]){                       // turn OFF
+    try { MAP.removeLayer(owm.layers[layer]); } catch(e){}
+    delete owm.layers[layer];
+    if(btn) btn.classList.remove('on');
+    owm.active = Object.keys(owm.layers).slice(-1)[0] || null;
+    renderWxLegend();
+    return;
+  }
+  // turn ON — maxNativeZoom keeps tiles upscaled (never blank) past the data limit
+  const url = `https://tile.openweathermap.org/map/${layer}/{z}/{x}/{y}.png?appid=${OWM_KEY}`;
+  owm.layers[layer] = L.tileLayer(url, {
+    pane:'weatherPane', opacity:owm.opacity,
+    maxNativeZoom:OWM_NATIVE_MAX, maxZoom:19,
+    attribution:'Weather © OpenWeatherMap'
+  }).addTo(MAP);
+  if(btn) btn.classList.add('on');
+  owm.active = layer;
+  owmEaseZoom();
+  renderWxLegend();
+}
+
+function renderWxLegend(){
+  const box = document.getElementById('wxLegend');
+  if(!box) return;
+  if(!owm.active){ box.classList.remove('show'); box.innerHTML = ''; return; }
+  const c = OWM_LAYERS[owm.active];
+  const grad  = `linear-gradient(to right, ${c.stops.join(',')})`;
+  const ticks = c.ticks.map(t => `<span>${t}</span>`).join('');
+  box.innerHTML =
+    `<div class="wxl-title"><i class="fa-solid ${c.icon}"></i> ${c.label} <span>(${c.unit})</span></div>
+     <div class="wxl-bar" style="background:${grad}"></div>
+     <div class="wxl-ticks">${ticks}</div>
+     <div class="wxl-src">OpenWeatherMap · low → high</div>`;
+  box.classList.add('show');
+}
+
+/* ── Windy (interactive forecast map via the official free embed) ─────────
+   The embed is a self-contained windy.com map — animated particles, layer
+   switcher and its OWN colour legend — so no tiles to blank out and no key
+   needed. VEDK is marked at centre. */
+let windy = { overlay:null };
+const WINDY_OVERLAYS = {
+  wind:     { label:'Wind',        icon:'fa-wind' },
+  rain:     { label:'Rain',        icon:'fa-cloud-rain' },
+  temp:     { label:'Temp',        icon:'fa-temperature-half' },
+  clouds:   { label:'Clouds',      icon:'fa-cloud' },
+  pressure: { label:'Pressure',    icon:'fa-gauge-high' }
+};
+function windySrc(overlay){
+  const q = new URLSearchParams({
+    lat:VEDK.lat, lon:VEDK.lon, detailLat:VEDK.lat, detailLon:VEDK.lon,
+    zoom:7, level:'surface', overlay:overlay, product:'ecmwf',
+    menu:'', message:'true', marker:'true', calendar:'now', pressure:'',
+    type:'map', location:'coordinates', detail:'', metricWind:'kt', metricTemp:'°C', radarRange:-1
+  });
+  return 'https://embed.windy.com/embed2.html?' + q.toString();
+}
+function toggleWindy(overlay, btn){
+  if(windy.overlay === overlay){ closeWindy(); return; }
+  const wrap  = document.getElementById('windyOverlay');
+  const frame = document.getElementById('windyFrame');
+  const lbl   = document.getElementById('windyTitleLayer');
+  windy.overlay = overlay;
+  frame.src = windySrc(overlay);
+  if(lbl) lbl.textContent = (WINDY_OVERLAYS[overlay] || {}).label || overlay;
+  wrap.classList.add('show');
+  document.querySelectorAll('.wx-chip[data-windy]').forEach(c => c.classList.toggle('on', c.dataset.windy === overlay));
+}
+function closeWindy(){
+  const wrap  = document.getElementById('windyOverlay');
+  const frame = document.getElementById('windyFrame');
+  windy.overlay = null;
+  wrap.classList.remove('show');
+  frame.src = 'about:blank';
+  document.querySelectorAll('.wx-chip[data-windy]').forEach(c => c.classList.remove('on'));
+}
+
+(function initWeatherControls(){
+  const op = document.getElementById('wxOpacity');
+  if(op) op.value = owm.opacity;
+})();
 
 /* ═══════════════════════════════════════
    THEME
