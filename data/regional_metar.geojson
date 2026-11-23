@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-23T16:01:19.108337+00:00",
+  "generated_at_utc": "2026-11-23T16:05:36.482080+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 688,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-23T16:01:19.108330+00:00"
+        "updated_utc": "2026-11-23T16:05:36.482072+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 533,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-23T16:01:19.108322+00:00"
+        "updated_utc": "2026-11-23T16:05:36.482062+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 954,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-23T16:01:19.108270+00:00"
+        "updated_utc": "2026-11-23T16:05:36.482000+00:00"
       }
     },
     {
@@ -108,21 +108,21 @@
       "properties": {
         "icao": "VERC",
         "name": "Birsa Munda (Ranchi)",
-        "raw_metar": "METAR VERC 231530Z 00000KT 2000 BR SCT100 19/17 Q1022 NOSIG",
-        "obs_time": "2026-11-23T15:30:00.000Z",
+        "raw_metar": "METAR VERC 231600Z 00000KT 1800 BR SCT100 18/17 Q1022 NOSIG",
+        "obs_time": "2026-11-23T16:00:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 19,
+        "temp_c": 18,
         "dewpoint_c": 17,
         "qnh_hpa": 1022.0,
         "wind_dir": 0,
         "wind_speed_kt": 0,
         "wind_gust_kt": null,
-        "visibility_sm": 1.24,
+        "visibility_sm": 1.12,
         "ceiling_ft": null,
-        "density_altitude_ft": 955,
+        "density_altitude_ft": 835,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-23T16:01:19.108312+00:00"
+        "updated_utc": "2026-11-23T16:05:36.482049+00:00"
       }
     },
     {
@@ -137,8 +137,8 @@
       "properties": {
         "icao": "VEPT",
         "name": "Jay Prakash Narayan (Patna)",
-        "raw_metar": "METAR VEPT 231530Z 00000KT 3000 BR NSC 21/18 Q1018 NOSIG",
-        "obs_time": "2026-11-23T15:30:00.000Z",
+        "raw_metar": "METAR VEPT 231600Z 00000KT 3000 BR FEW100 21/18 Q1018 NOSIG",
+        "obs_time": "2026-11-23T16:00:00.000Z",
         "flight_category": "IFR",
         "temp_c": 21,
         "dewpoint_c": 18,
@@ -151,7 +151,7 @@
         "density_altitude_ft": 609,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-23T16:01:19.108301+00:00"
+        "updated_utc": "2026-11-23T16:05:36.482034+00:00"
       }
     }
   ]
