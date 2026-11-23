@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-23T00:05:42.552964+00:00",
+  "generated_at_utc": "2026-11-23T00:10:44.424519+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDG",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 847,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-23T00:05:42.552904+00:00"
+        "updated_utc": "2026-11-23T00:10:44.424504+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 992,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-23T00:05:42.552937+00:00"
+        "updated_utc": "2026-11-23T00:10:44.424513+00:00"
       }
     },
     {
@@ -79,21 +79,21 @@
       "properties": {
         "icao": "VERC",
         "name": "Birsa Munda (Ranchi)",
-        "raw_metar": "METAR VERC 222300Z 32007KT 1800 BR SCT020 BKN100 19/18 Q1020 NOSIG",
-        "obs_time": "2026-11-22T23:00:00.000Z",
+        "raw_metar": "METAR VERC 230000Z 33005KT 1700 BR SCT020 BKN100 19/18 Q1020 BECMG 1500 BR",
+        "obs_time": "2026-11-23T00:00:00.000Z",
         "flight_category": "IFR",
         "temp_c": 19,
         "dewpoint_c": 18,
         "qnh_hpa": 1020.0,
-        "wind_dir": 320,
-        "wind_speed_kt": 7,
+        "wind_dir": 330,
+        "wind_speed_kt": 5,
         "wind_gust_kt": null,
-        "visibility_sm": 1.12,
+        "visibility_sm": 1.06,
         "ceiling_ft": 10000,
         "density_altitude_ft": 1029,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-23T00:05:42.552958+00:00"
+        "updated_utc": "2026-11-23T00:10:44.424492+00:00"
       }
     },
     {
@@ -108,21 +108,21 @@
       "properties": {
         "icao": "VEPT",
         "name": "Jay Prakash Narayan (Patna)",
-        "raw_metar": "METAR VEPT 222330Z 28004KT 0200 R25/0500 R07/0400 FG NSC 20/20 Q1017 NOSIG",
-        "obs_time": "2026-11-22T23:30:00.000Z",
+        "raw_metar": "METAR VEPT 230000Z 28003KT 0400 R25/1300 R07/1600 FG 0 21/21 Q1017 NOSIG",
+        "obs_time": "2026-11-23T00:00:00.000Z",
         "flight_category": "LIFR",
-        "temp_c": 20,
-        "dewpoint_c": 20,
+        "temp_c": 21,
+        "dewpoint_c": 21,
         "qnh_hpa": 1017.0,
         "wind_dir": 280,
-        "wind_speed_kt": 4,
+        "wind_speed_kt": 3,
         "wind_gust_kt": null,
-        "visibility_sm": 0.12,
+        "visibility_sm": 0.25,
         "ceiling_ft": null,
-        "density_altitude_ft": 526,
+        "density_altitude_ft": 646,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-23T00:05:42.552948+00:00"
+        "updated_utc": "2026-11-23T00:10:44.424460+00:00"
       }
     }
   ]
