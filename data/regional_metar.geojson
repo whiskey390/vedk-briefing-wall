@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-24T05:55:33.420723+00:00",
+  "generated_at_utc": "2026-11-24T06:01:17.557545+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -21,21 +21,21 @@
       "properties": {
         "icao": "VEDO",
         "name": "Deoghar Airport",
-        "raw_metar": "METAR VEDO 240530Z 32007KT 3500 HZ FEW020 24/14 Q1020 NOSIG",
-        "obs_time": "2026-11-24T05:30:00.000Z",
+        "raw_metar": "METAR VEDO 240600Z 32006KT 4000 HZ FEW020 24/14 Q1020 NOSIG",
+        "obs_time": "2026-11-24T06:00:00.000Z",
         "flight_category": "IFR",
         "temp_c": 24,
         "dewpoint_c": 14,
         "qnh_hpa": 1020.0,
         "wind_dir": 320,
-        "wind_speed_kt": 7,
+        "wind_speed_kt": 6,
         "wind_gust_kt": null,
-        "visibility_sm": 2.17,
+        "visibility_sm": 2.49,
         "ceiling_ft": null,
         "density_altitude_ft": 1131,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-24T05:55:33.420618+00:00"
+        "updated_utc": "2026-11-24T06:01:17.557389+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 1335,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-24T05:55:33.420681+00:00"
+        "updated_utc": "2026-11-24T06:01:17.557453+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 1277,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-24T05:55:33.420697+00:00"
+        "updated_utc": "2026-11-24T06:01:17.557534+00:00"
       }
     },
     {
@@ -122,7 +122,7 @@
         "density_altitude_ft": 1397,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-24T05:55:33.420662+00:00"
+        "updated_utc": "2026-11-24T06:01:17.557433+00:00"
       }
     },
     {
@@ -151,7 +151,7 @@
         "density_altitude_ft": 1015,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-24T05:55:33.420711+00:00"
+        "updated_utc": "2026-11-24T06:01:17.557516+00:00"
       }
     }
   ]
