@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-24T07:45:45.186898+00:00",
+  "generated_at_utc": "2026-11-24T07:50:46.707716+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -21,21 +21,21 @@
       "properties": {
         "icao": "VEDO",
         "name": "Deoghar Airport",
-        "raw_metar": "METAR VEDO 240700Z 30008KT 4500 HZ FEW020 25/13 Q1019 NOSIG",
-        "obs_time": "2026-11-24T07:00:00.000Z",
+        "raw_metar": "METAR VEDO 240730Z 29008KT 4500 HZ FEW020 25/14 Q1018 NOSIG",
+        "obs_time": "2026-11-24T07:30:00.000Z",
         "flight_category": "IFR",
         "temp_c": 25,
-        "dewpoint_c": 13,
-        "qnh_hpa": 1019.0,
-        "wind_dir": 300,
+        "dewpoint_c": 14,
+        "qnh_hpa": 1018.0,
+        "wind_dir": 290,
         "wind_speed_kt": 8,
         "wind_gust_kt": null,
         "visibility_sm": 2.8,
         "ceiling_ft": null,
-        "density_altitude_ft": 1288,
+        "density_altitude_ft": 1326,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-24T07:45:45.186889+00:00"
+        "updated_utc": "2026-11-24T07:50:46.707696+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 1493,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-24T07:45:45.186876+00:00"
+        "updated_utc": "2026-11-24T07:50:46.707709+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 1472,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-24T07:45:45.186845+00:00"
+        "updated_utc": "2026-11-24T07:50:46.707655+00:00"
       }
     },
     {
@@ -108,21 +108,21 @@
       "properties": {
         "icao": "VERC",
         "name": "Birsa Munda (Ranchi)",
-        "raw_metar": "METAR VERC 240700Z 24006KT 2500 HZ FEW020 SCT100 25/15 Q1021 BECMG 3000 HZ",
-        "obs_time": "2026-11-24T07:00:00.000Z",
+        "raw_metar": "METAR VERC 240730Z 26005KT 3000 HZ SCT020 SCT025 25/15 Q1021 NOSIG",
+        "obs_time": "2026-11-24T07:30:00.000Z",
         "flight_category": "IFR",
         "temp_c": 25,
         "dewpoint_c": 15,
         "qnh_hpa": 1021.0,
-        "wind_dir": 240,
-        "wind_speed_kt": 6,
+        "wind_dir": 260,
+        "wind_speed_kt": 5,
         "wind_gust_kt": null,
-        "visibility_sm": 1.55,
+        "visibility_sm": 1.86,
         "ceiling_ft": null,
         "density_altitude_ft": 1712,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-24T07:45:45.186863+00:00"
+        "updated_utc": "2026-11-24T07:50:46.707685+00:00"
       }
     },
     {
@@ -151,7 +151,7 @@
         "density_altitude_ft": 1329,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-24T07:45:45.186809+00:00"
+        "updated_utc": "2026-11-24T07:50:46.707703+00:00"
       }
     }
   ]
