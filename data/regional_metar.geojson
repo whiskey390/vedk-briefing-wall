@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-24T10:25:39.827560+00:00",
+  "generated_at_utc": "2026-11-24T10:31:11.994801+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -21,21 +21,21 @@
       "properties": {
         "icao": "VEDO",
         "name": "Deoghar Airport",
-        "raw_metar": "METAR VEDO 241000Z 32007KT 4500 HZ FEW100 24/13 Q1017 NOSIG",
-        "obs_time": "2026-11-24T10:00:00.000Z",
+        "raw_metar": "METAR VEDO 241030Z 33004KT 4000 HZ NSC 24/13 Q1017 NOSIG",
+        "obs_time": "2026-11-24T10:30:00.000Z",
         "flight_category": "IFR",
         "temp_c": 24,
         "dewpoint_c": 13,
         "qnh_hpa": 1017.0,
-        "wind_dir": 320,
-        "wind_speed_kt": 7,
+        "wind_dir": 330,
+        "wind_speed_kt": 4,
         "wind_gust_kt": null,
-        "visibility_sm": 2.8,
+        "visibility_sm": 2.49,
         "ceiling_ft": null,
         "density_altitude_ft": 1243,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-24T10:25:39.827550+00:00"
+        "updated_utc": "2026-11-24T10:31:11.994771+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 1327,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-24T10:25:39.827524+00:00"
+        "updated_utc": "2026-11-24T10:31:11.994794+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 1389,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-24T10:25:39.827489+00:00"
+        "updated_utc": "2026-11-24T10:31:11.994782+00:00"
       }
     },
     {
@@ -108,21 +108,21 @@
       "properties": {
         "icao": "VERC",
         "name": "Birsa Munda (Ranchi)",
-        "raw_metar": "METAR VERC 241000Z 02007KT 3000 HZ SCT020 23/15 Q1020 NOSIG",
-        "obs_time": "2026-11-24T10:00:00.000Z",
+        "raw_metar": "METAR VERC 241030Z 35006KT 3000 HZ SCT020 22/15 Q1020 NOSIG",
+        "obs_time": "2026-11-24T10:30:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 23,
+        "temp_c": 22,
         "dewpoint_c": 15,
         "qnh_hpa": 1020.0,
-        "wind_dir": 20,
-        "wind_speed_kt": 7,
+        "wind_dir": 350,
+        "wind_speed_kt": 6,
         "wind_gust_kt": null,
         "visibility_sm": 1.86,
         "ceiling_ft": null,
-        "density_altitude_ft": 1509,
+        "density_altitude_ft": 1389,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-24T10:25:39.827535+00:00"
+        "updated_utc": "2026-11-24T10:31:11.994746+00:00"
       }
     },
     {
@@ -151,7 +151,7 @@
         "density_altitude_ft": 1283,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-24T10:25:39.827543+00:00"
+        "updated_utc": "2026-11-24T10:31:11.994789+00:00"
       }
     }
   ]
