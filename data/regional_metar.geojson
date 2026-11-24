@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-24T01:25:32.995346+00:00",
+  "generated_at_utc": "2026-11-24T01:31:08.153813+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDG",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 375,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-24T01:25:32.995326+00:00"
+        "updated_utc": "2026-11-24T01:31:08.153776+00:00"
       }
     },
     {
@@ -50,21 +50,21 @@
       "properties": {
         "icao": "VECC",
         "name": "Netaji Subhas Chandra Bose (Kolkata)",
-        "raw_metar": "METAR VECC 240100Z COR 35006KT 1200 R01R/1900 BR SCT020 SCT100 22/22 Q1018 NOSIG",
-        "obs_time": "2026-11-24T01:00:00.000Z",
+        "raw_metar": "METAR VECC 240130Z 36006KT 1400 R01R/P2000 BR SCT020 SCT100 23/23 Q10 18 BECMG 1500 BR",
+        "obs_time": "2026-11-24T01:30:00.000Z",
         "flight_category": "LIFR",
-        "temp_c": 22,
-        "dewpoint_c": 22,
-        "qnh_hpa": 1018.0,
-        "wind_dir": 350,
+        "temp_c": 23,
+        "dewpoint_c": 23,
+        "qnh_hpa": null,
+        "wind_dir": 360,
         "wind_speed_kt": 6,
         "wind_gust_kt": null,
-        "visibility_sm": 0.75,
+        "visibility_sm": 0.87,
         "ceiling_ft": null,
-        "density_altitude_ft": 677,
+        "density_altitude_ft": null,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-24T01:25:32.995338+00:00"
+        "updated_utc": "2026-11-24T01:31:08.153737+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 595,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-24T01:25:32.995275+00:00"
+        "updated_utc": "2026-11-24T01:31:08.153793+00:00"
       }
     },
     {
@@ -122,7 +122,7 @@
         "density_altitude_ft": 129,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-24T01:25:32.995309+00:00"
+        "updated_utc": "2026-11-24T01:31:08.153804+00:00"
       }
     }
   ]
