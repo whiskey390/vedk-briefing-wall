@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-24T05:35:32.454977+00:00",
+  "generated_at_utc": "2026-11-24T05:40:51.381995+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDG",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 1298,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-24T05:35:32.454961+00:00"
+        "updated_utc": "2026-11-24T05:40:51.381988+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 1277,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-24T05:35:32.454914+00:00"
+        "updated_utc": "2026-11-24T05:40:51.381937+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 1120,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-24T05:35:32.454948+00:00"
+        "updated_utc": "2026-11-24T05:40:51.381980+00:00"
       }
     },
     {
@@ -108,21 +108,21 @@
       "properties": {
         "icao": "VEPT",
         "name": "Jay Prakash Narayan (Patna)",
-        "raw_metar": "METAR VEPT 240500Z 27007KT 3000 HZ NSC 25/14 Q1020 NOSIG",
-        "obs_time": "2026-11-24T05:00:00.000Z",
+        "raw_metar": "METAR VEPT 240530Z 30006KT 3500 HZ NSC 25/14 Q1020 NOSIG",
+        "obs_time": "2026-11-24T05:30:00.000Z",
         "flight_category": "IFR",
         "temp_c": 25,
         "dewpoint_c": 14,
         "qnh_hpa": 1020.0,
-        "wind_dir": 270,
-        "wind_speed_kt": 7,
+        "wind_dir": 300,
+        "wind_speed_kt": 6,
         "wind_gust_kt": null,
-        "visibility_sm": 1.86,
+        "visibility_sm": 2.17,
         "ceiling_ft": null,
         "density_altitude_ft": 1015,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-24T05:35:32.454971+00:00"
+        "updated_utc": "2026-11-24T05:40:51.381969+00:00"
       }
     }
   ]
