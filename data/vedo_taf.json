@@ -1,10 +1,10 @@
 {
-  "station": "VECC",
-  "name": "Netaji Subhas Chandra Bose (Kolkata)",
-  "raw_taf": "TAF VECC 241700Z 2418/2600 03005KT 2000 BR FEW100 BECMG 2422/2500 0700 MIFG BECMG 2502/2504 33005KT 2000 BR FEW020 SCT100 BECMG 2506/2508 4000 HZ BECMG 2516/2518 2200 BR FEW100 BECMG 2521/2523 1200 BR",
-  "issue_time": "2026-11-24T17:00:00.000Z",
-  "valid_from": 1795543200,
-  "valid_to": 1795651200,
+  "station": "VEDO",
+  "name": "Deoghar Airport",
+  "raw_taf": "TAF VEDO 240800Z 2409/2418 32010KT 4000 HZ FEW020 BECMG 2412/2414 32005KT 2000 BR HZ",
+  "issue_time": "2026-11-24T08:00:00.000Z",
+  "valid_from": 1795510800,
+  "valid_to": 1795543200,
   "source": "LIVE",
-  "generated_at_utc": "2026-11-24T18:15:59.883857+00:00"
+  "generated_at_utc": "2026-11-24T18:20:56.424435+00:00"
 }
