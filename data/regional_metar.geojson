@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-24T02:35:35.208350+00:00",
+  "generated_at_utc": "2026-11-24T02:40:45.082498+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDG",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 615,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-24T02:35:35.208341+00:00"
+        "updated_utc": "2026-11-24T02:40:45.082480+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 880,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-24T02:35:35.208278+00:00"
+        "updated_utc": "2026-11-24T02:40:45.082462+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 797,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-24T02:35:35.208329+00:00"
+        "updated_utc": "2026-11-24T02:40:45.082490+00:00"
       }
     },
     {
@@ -108,21 +108,21 @@
       "properties": {
         "icao": "VEPT",
         "name": "Jay Prakash Narayan (Patna)",
-        "raw_metar": "METAR VEPT 240200Z 00000KT 1200 R25/2000 R07/2000 MIFG NSC 18/17 Q1020 BECMG 1500 BR",
-        "obs_time": "2026-11-24T02:00:00.000Z",
+        "raw_metar": "METAR VEPT 240230Z 25004KT 1400 R25/2000 R07/2000 BR NSC 20/16 Q1020 NOSIG",
+        "obs_time": "2026-11-24T02:30:00.000Z",
         "flight_category": "LIFR",
-        "temp_c": 18,
-        "dewpoint_c": 17,
+        "temp_c": 20,
+        "dewpoint_c": 16,
         "qnh_hpa": 1020.0,
-        "wind_dir": 0,
-        "wind_speed_kt": 0,
+        "wind_dir": 250,
+        "wind_speed_kt": 4,
         "wind_gust_kt": null,
-        "visibility_sm": 0.75,
+        "visibility_sm": 0.87,
         "ceiling_ft": null,
-        "density_altitude_ft": 175,
+        "density_altitude_ft": 415,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-24T02:35:35.208315+00:00"
+        "updated_utc": "2026-11-24T02:40:45.082410+00:00"
       }
     }
   ]
