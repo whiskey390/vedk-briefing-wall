@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-24T15:25:44.676822+00:00",
+  "generated_at_utc": "2026-11-24T15:31:11.056375+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
-    "VEDG",
-    "VECC"
+    "VECC",
+    "VERC"
   ],
   "features": [
     {
@@ -35,36 +35,7 @@
         "density_altitude_ft": 171,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-24T15:25:44.676805+00:00"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          87.243,
-          23.623
-        ]
-      },
-      "properties": {
-        "icao": "VEDG",
-        "name": "Kazi Nazrul Islam (Durgapur)",
-        "raw_metar": "METAR VEDG 241230Z 01002KT 2500 BR FEW020 SCT100 23/19 Q1017 NOSIG",
-        "obs_time": "2026-11-24T12:30:00.000Z",
-        "flight_category": "IFR",
-        "temp_c": 23,
-        "dewpoint_c": 19,
-        "qnh_hpa": 1017.0,
-        "wind_dir": 10,
-        "wind_speed_kt": 2,
-        "wind_gust_kt": null,
-        "visibility_sm": 1.55,
-        "ceiling_ft": null,
-        "density_altitude_ft": 930,
-        "dist_nm": 36.5,
-        "bearing_deg": 182,
-        "updated_utc": "2026-11-24T15:25:44.676814+00:00"
+        "updated_utc": "2026-11-24T15:31:11.056367+00:00"
       }
     },
     {
@@ -93,7 +64,7 @@
         "density_altitude_ft": 797,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-24T15:25:44.676752+00:00"
+        "updated_utc": "2026-11-24T15:31:11.056301+00:00"
       }
     },
     {
@@ -122,7 +93,7 @@
         "density_altitude_ft": 677,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-24T15:25:44.676783+00:00"
+        "updated_utc": "2026-11-24T15:31:11.056340+00:00"
       }
     },
     {
@@ -151,7 +122,7 @@
         "density_altitude_ft": 369,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-24T15:25:44.676795+00:00"
+        "updated_utc": "2026-11-24T15:31:11.056355+00:00"
       }
     }
   ]
