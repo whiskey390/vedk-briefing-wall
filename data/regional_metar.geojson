@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-24T12:31:04.506674+00:00",
+  "generated_at_utc": "2026-11-24T12:35:33.582477+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 726,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-24T12:31:04.506653+00:00"
+        "updated_utc": "2026-11-24T12:35:33.582469+00:00"
       }
     },
     {
@@ -50,21 +50,21 @@
       "properties": {
         "icao": "VEDG",
         "name": "Kazi Nazrul Islam (Durgapur)",
-        "raw_metar": "METAR VEDG 241200Z 00000KT 2500 BR FEW020 SCT100 22/19 Q1017 NOSIG",
-        "obs_time": "2026-11-24T12:00:00.000Z",
+        "raw_metar": "METAR VEDG 241230Z 01002KT 2500 BR FEW020 SCT100 23/19 Q1017 NOSIG",
+        "obs_time": "2026-11-24T12:30:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 22,
+        "temp_c": 23,
         "dewpoint_c": 19,
         "qnh_hpa": 1017.0,
-        "wind_dir": 0,
-        "wind_speed_kt": 0,
+        "wind_dir": 10,
+        "wind_speed_kt": 2,
         "wind_gust_kt": null,
         "visibility_sm": 1.55,
         "ceiling_ft": null,
-        "density_altitude_ft": 810,
+        "density_altitude_ft": 930,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-24T12:31:04.506665+00:00"
+        "updated_utc": "2026-11-24T12:35:33.582431+00:00"
       }
     },
     {
@@ -79,21 +79,21 @@
       "properties": {
         "icao": "VECC",
         "name": "Netaji Subhas Chandra Bose (Kolkata)",
-        "raw_metar": "METAR VECC 241200Z 01004KT 3500 HZ FEW100 26/18 Q1016 NOSIG",
-        "obs_time": "2026-11-24T12:00:00.000Z",
+        "raw_metar": "METAR VECC 241230Z 02004KT 3200 HZ FEW100 25/18 Q1017 NOSIG",
+        "obs_time": "2026-11-24T12:30:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 26,
+        "temp_c": 25,
         "dewpoint_c": 18,
-        "qnh_hpa": 1016.0,
-        "wind_dir": 10,
+        "qnh_hpa": 1017.0,
+        "wind_dir": 20,
         "wind_speed_kt": 4,
         "wind_gust_kt": null,
-        "visibility_sm": 2.17,
+        "visibility_sm": 1.99,
         "ceiling_ft": null,
-        "density_altitude_ft": 1232,
+        "density_altitude_ft": 1074,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-24T12:31:04.506539+00:00"
+        "updated_utc": "2026-11-24T12:35:33.582446+00:00"
       }
     },
     {
@@ -108,21 +108,21 @@
       "properties": {
         "icao": "VERC",
         "name": "Birsa Munda (Ranchi)",
-        "raw_metar": "METAR VERC 241200Z 02003KT 2500 HZ FEW020 20/15 Q1021 NOSIG",
-        "obs_time": "2026-11-24T12:00:00.000Z",
+        "raw_metar": "METAR VERC 241230Z 03004KT 2000 HZ FEW020 19/14 Q1021 NOSIG",
+        "obs_time": "2026-11-24T12:30:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 20,
-        "dewpoint_c": 15,
+        "temp_c": 19,
+        "dewpoint_c": 14,
         "qnh_hpa": 1021.0,
-        "wind_dir": 20,
-        "wind_speed_kt": 3,
+        "wind_dir": 30,
+        "wind_speed_kt": 4,
         "wind_gust_kt": null,
-        "visibility_sm": 1.55,
+        "visibility_sm": 1.24,
         "ceiling_ft": null,
-        "density_altitude_ft": 1112,
+        "density_altitude_ft": 992,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-24T12:31:04.506640+00:00"
+        "updated_utc": "2026-11-24T12:35:33.582397+00:00"
       }
     },
     {
@@ -137,21 +137,21 @@
       "properties": {
         "icao": "VEPT",
         "name": "Jay Prakash Narayan (Patna)",
-        "raw_metar": "METAR VEPT 241200Z 27003KT 3000 HZ NSC 24/13 Q1017 NOSIG",
-        "obs_time": "2026-11-24T12:00:00.000Z",
+        "raw_metar": "METAR VEPT 241230Z 23003KT 3000 HZ NSC 22/14 Q1017 NOSIG",
+        "obs_time": "2026-11-24T12:30:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 24,
-        "dewpoint_c": 13,
+        "temp_c": 22,
+        "dewpoint_c": 14,
         "qnh_hpa": 1017.0,
-        "wind_dir": 270,
+        "wind_dir": 230,
         "wind_speed_kt": 3,
         "wind_gust_kt": null,
         "visibility_sm": 1.86,
         "ceiling_ft": null,
-        "density_altitude_ft": 1006,
+        "density_altitude_ft": 766,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-24T12:31:04.506574+00:00"
+        "updated_utc": "2026-11-24T12:35:33.582457+00:00"
       }
     }
   ]
