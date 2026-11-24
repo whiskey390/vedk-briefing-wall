@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-24T08:31:03.469018+00:00",
+  "generated_at_utc": "2026-11-24T08:35:34.255345+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 1326,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-24T08:31:03.468949+00:00"
+        "updated_utc": "2026-11-24T08:35:34.255336+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 1530,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-24T08:31:03.468993+00:00"
+        "updated_utc": "2026-11-24T08:35:34.255314+00:00"
       }
     },
     {
@@ -79,13 +79,13 @@
       "properties": {
         "icao": "VECC",
         "name": "Netaji Subhas Chandra Bose (Kolkata)",
-        "raw_metar": "METAR VECC 240800Z 32007KT 3800 HZ FEW020 28/18 Q1016 NOSIG",
-        "obs_time": "2026-11-24T08:00:00.000Z",
+        "raw_metar": "METAR VECC 240830Z 36007KT 3800 HZ FEW020 28/18 Q1016 NOSIG",
+        "obs_time": "2026-11-24T08:30:00.000Z",
         "flight_category": "IFR",
         "temp_c": 28,
         "dewpoint_c": 18,
         "qnh_hpa": 1016.0,
-        "wind_dir": 320,
+        "wind_dir": 360,
         "wind_speed_kt": 7,
         "wind_gust_kt": null,
         "visibility_sm": 2.36,
@@ -93,7 +93,7 @@
         "density_altitude_ft": 1472,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-24T08:31:03.469002+00:00"
+        "updated_utc": "2026-11-24T08:35:34.255261+00:00"
       }
     },
     {
@@ -122,7 +122,7 @@
         "density_altitude_ft": 1629,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-24T08:31:03.469011+00:00"
+        "updated_utc": "2026-11-24T08:35:34.255326+00:00"
       }
     },
     {
@@ -151,7 +151,7 @@
         "density_altitude_ft": 1246,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-24T08:31:03.468981+00:00"
+        "updated_utc": "2026-11-24T08:35:34.255297+00:00"
       }
     }
   ]
