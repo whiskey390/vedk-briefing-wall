@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-24T14:01:21.400798+00:00",
+  "generated_at_utc": "2026-11-24T14:05:35.000582+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -21,11 +21,11 @@
       "properties": {
         "icao": "VEDO",
         "name": "Deoghar Airport",
-        "raw_metar": "METAR VEDO 241330Z 00000KT 2000 BR NSC 17/15 Q1019 NOSIG",
-        "obs_time": "2026-11-24T13:30:00.000Z",
+        "raw_metar": "METAR VEDO 241400Z 00000KT 2000 BR NSC 17/14 Q1019 NOSIG",
+        "obs_time": "2026-11-24T14:00:00.000Z",
         "flight_category": "IFR",
         "temp_c": 17,
-        "dewpoint_c": 15,
+        "dewpoint_c": 14,
         "qnh_hpa": 1019.0,
         "wind_dir": 0,
         "wind_speed_kt": 0,
@@ -35,7 +35,7 @@
         "density_altitude_ft": 328,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-24T14:01:21.400753+00:00"
+        "updated_utc": "2026-11-24T14:05:35.000510+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 930,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-24T14:01:21.400789+00:00"
+        "updated_utc": "2026-11-24T14:05:35.000575+00:00"
       }
     },
     {
@@ -79,21 +79,21 @@
       "properties": {
         "icao": "VECC",
         "name": "Netaji Subhas Chandra Bose (Kolkata)",
-        "raw_metar": "METAR VECC 241330Z 04004KT 3000 HZ FEW100 24/19 Q1017 NOSIG",
-        "obs_time": "2026-11-24T13:30:00.000Z",
+        "raw_metar": "METAR VECC 241400Z 04006KT 3000 HZ FEW100 24/19 Q1018 NOSIG",
+        "obs_time": "2026-11-24T14:00:00.000Z",
         "flight_category": "IFR",
         "temp_c": 24,
         "dewpoint_c": 19,
-        "qnh_hpa": 1017.0,
+        "qnh_hpa": 1018.0,
         "wind_dir": 40,
-        "wind_speed_kt": 4,
+        "wind_speed_kt": 6,
         "wind_gust_kt": null,
         "visibility_sm": 1.86,
         "ceiling_ft": null,
-        "density_altitude_ft": 954,
+        "density_altitude_ft": 917,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-24T14:01:21.400767+00:00"
+        "updated_utc": "2026-11-24T14:05:35.000558+00:00"
       }
     },
     {
@@ -108,21 +108,21 @@
       "properties": {
         "icao": "VERC",
         "name": "Birsa Munda (Ranchi)",
-        "raw_metar": "METAR VERC 241330Z 34004KT 2000 BR FEW020 19/14 Q1022 NOSIG",
-        "obs_time": "2026-11-24T13:30:00.000Z",
+        "raw_metar": "METAR VERC 241400Z 35003KT 2000 BR FEW020 18/14 Q1022 NOSIG",
+        "obs_time": "2026-11-24T14:00:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 19,
+        "temp_c": 18,
         "dewpoint_c": 14,
         "qnh_hpa": 1022.0,
-        "wind_dir": 340,
-        "wind_speed_kt": 4,
+        "wind_dir": 350,
+        "wind_speed_kt": 3,
         "wind_gust_kt": null,
         "visibility_sm": 1.24,
         "ceiling_ft": null,
-        "density_altitude_ft": 955,
+        "density_altitude_ft": 835,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-24T14:01:21.400719+00:00"
+        "updated_utc": "2026-11-24T14:05:35.000567+00:00"
       }
     },
     {
@@ -137,21 +137,21 @@
       "properties": {
         "icao": "VEPT",
         "name": "Jay Prakash Narayan (Patna)",
-        "raw_metar": "METAR VEPT 241330Z 00000KT 3000 HZ NSC 22/15 Q1018 NOSIG",
-        "obs_time": "2026-11-24T13:30:00.000Z",
+        "raw_metar": "METAR VEPT 241400Z 00000KT 2500 BR NSC 19/15 Q1018 NOSIG",
+        "obs_time": "2026-11-24T14:00:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 22,
+        "temp_c": 19,
         "dewpoint_c": 15,
         "qnh_hpa": 1018.0,
         "wind_dir": 0,
         "wind_speed_kt": 0,
         "wind_gust_kt": null,
-        "visibility_sm": 1.86,
+        "visibility_sm": 1.55,
         "ceiling_ft": null,
-        "density_altitude_ft": 729,
+        "density_altitude_ft": 369,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-24T14:01:21.400778+00:00"
+        "updated_utc": "2026-11-24T14:05:35.000545+00:00"
       }
     }
   ]
