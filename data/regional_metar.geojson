@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-24T08:45:43.312696+00:00",
+  "generated_at_utc": "2026-11-24T08:50:45.897886+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -21,21 +21,21 @@
       "properties": {
         "icao": "VEDO",
         "name": "Deoghar Airport",
-        "raw_metar": "METAR VEDO 240800Z 30005KT 4500 HZ FEW020 25/13 Q1018 BECMG 5000 HZ",
-        "obs_time": "2026-11-24T08:00:00.000Z",
-        "flight_category": "IFR",
+        "raw_metar": "METAR VEDO 240830Z 28006KT 5000 HZ FEW020 25/13 Q1017 NOSIG",
+        "obs_time": "2026-11-24T08:30:00.000Z",
+        "flight_category": "MVFR",
         "temp_c": 25,
         "dewpoint_c": 13,
-        "qnh_hpa": 1018.0,
-        "wind_dir": 300,
-        "wind_speed_kt": 5,
+        "qnh_hpa": 1017.0,
+        "wind_dir": 280,
+        "wind_speed_kt": 6,
         "wind_gust_kt": null,
-        "visibility_sm": 2.8,
+        "visibility_sm": 3.11,
         "ceiling_ft": null,
-        "density_altitude_ft": 1326,
+        "density_altitude_ft": 1363,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-24T08:45:43.312680+00:00"
+        "updated_utc": "2026-11-24T08:50:45.897818+00:00"
       }
     },
     {
@@ -50,21 +50,21 @@
       "properties": {
         "icao": "VEDG",
         "name": "Kazi Nazrul Islam (Durgapur)",
-        "raw_metar": "METAR VEDG 240800Z 33004KT 3700 HZ FEW020 SCT100 28/17 Q1017 NOSIG",
-        "obs_time": "2026-11-24T08:00:00.000Z",
+        "raw_metar": "METAR VEDG 240830Z 28006KT 3700 HZ FEW020 SCT100 28/17 Q1016 NOSIG",
+        "obs_time": "2026-11-24T08:30:00.000Z",
         "flight_category": "IFR",
         "temp_c": 28,
         "dewpoint_c": 17,
-        "qnh_hpa": 1017.0,
-        "wind_dir": 330,
-        "wind_speed_kt": 4,
+        "qnh_hpa": 1016.0,
+        "wind_dir": 280,
+        "wind_speed_kt": 6,
         "wind_gust_kt": null,
         "visibility_sm": 2.3,
         "ceiling_ft": null,
-        "density_altitude_ft": 1530,
+        "density_altitude_ft": 1567,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-24T08:45:43.312670+00:00"
+        "updated_utc": "2026-11-24T08:50:45.897848+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 1472,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-24T08:45:43.312598+00:00"
+        "updated_utc": "2026-11-24T08:50:45.897870+00:00"
       }
     },
     {
@@ -108,13 +108,13 @@
       "properties": {
         "icao": "VERC",
         "name": "Birsa Munda (Ranchi)",
-        "raw_metar": "METAR VERC 240800Z 28004KT 3000 HZ SCT020 SCT025 24/13 Q1020 NOSIG",
-        "obs_time": "2026-11-24T08:00:00.000Z",
+        "raw_metar": "METAR VERC 240830Z 26004KT 3000 HZ SCT020 SCT025 24/14 Q1020 NOSIG",
+        "obs_time": "2026-11-24T08:30:00.000Z",
         "flight_category": "IFR",
         "temp_c": 24,
-        "dewpoint_c": 13,
+        "dewpoint_c": 14,
         "qnh_hpa": 1020.0,
-        "wind_dir": 280,
+        "wind_dir": 260,
         "wind_speed_kt": 4,
         "wind_gust_kt": null,
         "visibility_sm": 1.86,
@@ -122,7 +122,7 @@
         "density_altitude_ft": 1629,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-24T08:45:43.312688+00:00"
+        "updated_utc": "2026-11-24T08:50:45.897861+00:00"
       }
     },
     {
@@ -151,7 +151,7 @@
         "density_altitude_ft": 1246,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-24T08:45:43.312629+00:00"
+        "updated_utc": "2026-11-24T08:50:45.897879+00:00"
       }
     }
   ]
