@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-24T12:35:33.582477+00:00",
+  "generated_at_utc": "2026-11-24T12:40:52.057975+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -21,21 +21,21 @@
       "properties": {
         "icao": "VEDO",
         "name": "Deoghar Airport",
-        "raw_metar": "METAR VEDO 241200Z VRB02KT 2800 BR NSC 20/14 Q1018 NOSIG",
-        "obs_time": "2026-11-24T12:00:00.000Z",
+        "raw_metar": "METAR VEDO 241230Z VRB02KT 2200 BR NSC 19/15 Q1018 NOSIG",
+        "obs_time": "2026-11-24T12:30:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 20,
-        "dewpoint_c": 14,
+        "temp_c": 19,
+        "dewpoint_c": 15,
         "qnh_hpa": 1018.0,
         "wind_dir": "VRB",
         "wind_speed_kt": 2,
         "wind_gust_kt": null,
-        "visibility_sm": 1.74,
+        "visibility_sm": 1.37,
         "ceiling_ft": null,
-        "density_altitude_ft": 726,
+        "density_altitude_ft": 606,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-24T12:35:33.582469+00:00"
+        "updated_utc": "2026-11-24T12:40:52.057960+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 930,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-24T12:35:33.582431+00:00"
+        "updated_utc": "2026-11-24T12:40:52.057910+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 1074,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-24T12:35:33.582446+00:00"
+        "updated_utc": "2026-11-24T12:40:52.057941+00:00"
       }
     },
     {
@@ -122,7 +122,7 @@
         "density_altitude_ft": 992,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-24T12:35:33.582397+00:00"
+        "updated_utc": "2026-11-24T12:40:52.057951+00:00"
       }
     },
     {
@@ -151,7 +151,7 @@
         "density_altitude_ft": 766,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-24T12:35:33.582457+00:00"
+        "updated_utc": "2026-11-24T12:40:52.057967+00:00"
       }
     }
   ]
