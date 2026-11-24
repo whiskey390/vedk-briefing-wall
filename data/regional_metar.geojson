@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-24T00:01:17.334873+00:00",
+  "generated_at_utc": "2026-11-24T00:05:36.538256+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDG",
@@ -21,21 +21,21 @@
       "properties": {
         "icao": "VEDG",
         "name": "Kazi Nazrul Islam (Durgapur)",
-        "raw_metar": "METAR VEDG 232330Z 00000KT 1800 BR SCT018 BKN100 19/19 Q1017 NOSIG",
-        "obs_time": "2026-11-23T23:30:00.000Z",
+        "raw_metar": "METAR VEDG 240000Z 22002KT 1800 BR SCT018 BKN100 19/19 Q1018 NOSIG",
+        "obs_time": "2026-11-24T00:00:00.000Z",
         "flight_category": "IFR",
         "temp_c": 19,
         "dewpoint_c": 19,
-        "qnh_hpa": 1017.0,
-        "wind_dir": 0,
-        "wind_speed_kt": 0,
+        "qnh_hpa": 1018.0,
+        "wind_dir": 220,
+        "wind_speed_kt": 2,
         "wind_gust_kt": null,
         "visibility_sm": 1.12,
         "ceiling_ft": 10000,
-        "density_altitude_ft": 450,
+        "density_altitude_ft": 413,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-24T00:01:17.334745+00:00"
+        "updated_utc": "2026-11-24T00:05:36.538242+00:00"
       }
     },
     {
@@ -50,21 +50,21 @@
       "properties": {
         "icao": "VECC",
         "name": "Netaji Subhas Chandra Bose (Kolkata)",
-        "raw_metar": "METAR VECC 232330Z 36005KT 1800 BR SCT020 BKN100 23/23 Q1017 NOSIG",
-        "obs_time": "2026-11-23T23:30:00.000Z",
-        "flight_category": "IFR",
-        "temp_c": 23,
-        "dewpoint_c": 23,
+        "raw_metar": "METAR VECC 240000Z 01004KT 1600 BR SCT020 BKN100 22/22 Q1017 BECMG 1500 BR",
+        "obs_time": "2026-11-24T00:00:00.000Z",
+        "flight_category": "LIFR",
+        "temp_c": 22,
+        "dewpoint_c": 22,
         "qnh_hpa": 1017.0,
-        "wind_dir": 360,
-        "wind_speed_kt": 5,
+        "wind_dir": 10,
+        "wind_speed_kt": 4,
         "wind_gust_kt": null,
-        "visibility_sm": 1.12,
+        "visibility_sm": 0.99,
         "ceiling_ft": 10000,
-        "density_altitude_ft": 834,
+        "density_altitude_ft": 714,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-24T00:01:17.334787+00:00"
+        "updated_utc": "2026-11-24T00:05:36.538201+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 632,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-24T00:01:17.334821+00:00"
+        "updated_utc": "2026-11-24T00:05:36.538250+00:00"
       }
     },
     {
@@ -108,21 +108,21 @@
       "properties": {
         "icao": "VEPT",
         "name": "Jay Prakash Narayan (Patna)",
-        "raw_metar": "METAR VEPT 232330Z 00000KT 1100 R25/2000 R07/2000 MIFG NSC 17/16 Q1017 BECMG 800 FG",
-        "obs_time": "2026-11-23T23:30:00.000Z",
+        "raw_metar": "METAR VEPT 240000Z 00000KT 1000 R25/1800 R07/2000 MIFG NSC 17/16 Q1018 BECMG 800 FG",
+        "obs_time": "2026-11-24T00:00:00.000Z",
         "flight_category": "LIFR",
         "temp_c": 17,
         "dewpoint_c": 16,
-        "qnh_hpa": 1017.0,
+        "qnh_hpa": 1018.0,
         "wind_dir": 0,
         "wind_speed_kt": 0,
         "wind_gust_kt": null,
-        "visibility_sm": 0.68,
+        "visibility_sm": 0.62,
         "ceiling_ft": null,
-        "density_altitude_ft": 166,
+        "density_altitude_ft": 129,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-24T00:01:17.334806+00:00"
+        "updated_utc": "2026-11-24T00:05:36.538231+00:00"
       }
     }
   ]
