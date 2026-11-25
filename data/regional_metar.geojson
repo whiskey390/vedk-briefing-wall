@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-25T11:50:45.493430+00:00",
+  "generated_at_utc": "2026-11-25T11:55:37.334691+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 800,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-25T11:50:45.493338+00:00"
+        "updated_utc": "2026-11-25T11:55:37.334630+00:00"
       }
     },
     {
@@ -50,21 +50,21 @@
       "properties": {
         "icao": "VEDG",
         "name": "Kazi Nazrul Islam (Durgapur)",
-        "raw_metar": "METAR VEDG 251100Z 32004KT 3000 HZ NSC 23/14 Q1015 NOSIG",
-        "obs_time": "2026-11-25T11:00:00.000Z",
+        "raw_metar": "METAR VEDG 251130Z 33004KT 2800 HZ NSC 22/14 Q1015 NOSIG",
+        "obs_time": "2026-11-25T11:30:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 23,
+        "temp_c": 22,
         "dewpoint_c": 14,
         "qnh_hpa": 1015.0,
-        "wind_dir": 320,
+        "wind_dir": 330,
         "wind_speed_kt": 4,
         "wind_gust_kt": null,
-        "visibility_sm": 1.86,
+        "visibility_sm": 1.74,
         "ceiling_ft": null,
-        "density_altitude_ft": 1004,
+        "density_altitude_ft": 884,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-25T11:50:45.493408+00:00"
+        "updated_utc": "2026-11-25T11:55:37.334660+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 1186,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-25T11:50:45.493394+00:00"
+        "updated_utc": "2026-11-25T11:55:37.334678+00:00"
       }
     },
     {
@@ -108,21 +108,21 @@
       "properties": {
         "icao": "VERC",
         "name": "Birsa Munda (Ranchi)",
-        "raw_metar": "METAR VERC 251100Z 34008KT 4500 HZ NSC 21/12 Q1019 NOSIG",
-        "obs_time": "2026-11-25T11:00:00.000Z",
+        "raw_metar": "METAR VERC 251130Z 35006KT 4000 HZ NSC 20/12 Q1019 BECMG 3000 HZ",
+        "obs_time": "2026-11-25T11:30:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 21,
+        "temp_c": 20,
         "dewpoint_c": 12,
         "qnh_hpa": 1019.0,
-        "wind_dir": 340,
-        "wind_speed_kt": 8,
+        "wind_dir": 350,
+        "wind_speed_kt": 6,
         "wind_gust_kt": null,
-        "visibility_sm": 2.8,
+        "visibility_sm": 2.49,
         "ceiling_ft": null,
-        "density_altitude_ft": 1306,
+        "density_altitude_ft": 1186,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-25T11:50:45.493421+00:00"
+        "updated_utc": "2026-11-25T11:55:37.334669+00:00"
       }
     },
     {
@@ -151,7 +151,7 @@
         "density_altitude_ft": 1081,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-25T11:50:45.493375+00:00"
+        "updated_utc": "2026-11-25T11:55:37.334684+00:00"
       }
     }
   ]
