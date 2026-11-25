@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-25T08:25:32.710284+00:00",
+  "generated_at_utc": "2026-11-25T08:31:02.883695+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 1363,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-25T08:25:32.710192+00:00"
+        "updated_utc": "2026-11-25T08:31:02.883666+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 1327,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-25T08:25:32.710262+00:00"
+        "updated_utc": "2026-11-25T08:31:02.883677+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 1389,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-25T08:25:32.710275+00:00"
+        "updated_utc": "2026-11-25T08:31:02.883651+00:00"
       }
     },
     {
@@ -108,21 +108,21 @@
       "properties": {
         "icao": "VERC",
         "name": "Birsa Munda (Ranchi)",
-        "raw_metar": "METAR VERC 250800Z 31004KT 4000 HZ FEW020 23/10 Q1020 BECMG 5000 HZ",
-        "obs_time": "2026-11-25T08:00:00.000Z",
-        "flight_category": "IFR",
-        "temp_c": 23,
+        "raw_metar": "METAR VERC 250830Z 34004KT 5000 HZ FEW020 24/10 Q1019 NOSIG",
+        "obs_time": "2026-11-25T08:30:00.000Z",
+        "flight_category": "MVFR",
+        "temp_c": 24,
         "dewpoint_c": 10,
-        "qnh_hpa": 1020.0,
-        "wind_dir": 310,
+        "qnh_hpa": 1019.0,
+        "wind_dir": 340,
         "wind_speed_kt": 4,
         "wind_gust_kt": null,
-        "visibility_sm": 2.49,
+        "visibility_sm": 3.11,
         "ceiling_ft": null,
-        "density_altitude_ft": 1509,
+        "density_altitude_ft": 1666,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-25T08:25:32.710230+00:00"
+        "updated_utc": "2026-11-25T08:31:02.883620+00:00"
       }
     },
     {
@@ -151,7 +151,7 @@
         "density_altitude_ft": 1283,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-25T08:25:32.710248+00:00"
+        "updated_utc": "2026-11-25T08:31:02.883687+00:00"
       }
     }
   ]
