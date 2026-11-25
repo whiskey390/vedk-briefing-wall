@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-25T13:25:40.130258+00:00",
+  "generated_at_utc": "2026-11-25T13:31:04.744967+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 403,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-25T13:25:40.130196+00:00"
+        "updated_utc": "2026-11-25T13:31:04.744927+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 607,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-25T13:25:40.130244+00:00"
+        "updated_utc": "2026-11-25T13:31:04.744910+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 1029,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-25T13:25:40.130251+00:00"
+        "updated_utc": "2026-11-25T13:31:04.744957+00:00"
       }
     },
     {
@@ -108,21 +108,21 @@
       "properties": {
         "icao": "VERC",
         "name": "Birsa Munda (Ranchi)",
-        "raw_metar": "METAR VERC 251300Z 33005KT 2500 HZ NSC 18/11 Q1020 NOSIG",
-        "obs_time": "2026-11-25T13:00:00.000Z",
+        "raw_metar": "METAR VERC 251330Z 33004KT 2000 HZ NSC 16/11 Q1020 NOSIG",
+        "obs_time": "2026-11-25T13:30:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 18,
+        "temp_c": 16,
         "dewpoint_c": 11,
         "qnh_hpa": 1020.0,
         "wind_dir": 330,
-        "wind_speed_kt": 5,
+        "wind_speed_kt": 4,
         "wind_gust_kt": null,
-        "visibility_sm": 1.55,
+        "visibility_sm": 1.24,
         "ceiling_ft": null,
-        "density_altitude_ft": 909,
+        "density_altitude_ft": 669,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-25T13:25:40.130226+00:00"
+        "updated_utc": "2026-11-25T13:31:04.744871+00:00"
       }
     },
     {
@@ -151,7 +151,7 @@
         "density_altitude_ft": 563,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-25T13:25:40.130237+00:00"
+        "updated_utc": "2026-11-25T13:31:04.744943+00:00"
       }
     }
   ]
