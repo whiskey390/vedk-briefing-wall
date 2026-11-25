@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-25T05:35:32.966822+00:00",
+  "generated_at_utc": "2026-11-25T05:40:46.093379+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDG",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 1095,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-25T05:35:32.966797+00:00"
+        "updated_utc": "2026-11-25T05:40:46.093339+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 1157,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-25T05:35:32.966773+00:00"
+        "updated_utc": "2026-11-25T05:40:46.093261+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 1277,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-25T05:35:32.966816+00:00"
+        "updated_utc": "2026-11-25T05:40:46.093366+00:00"
       }
     },
     {
@@ -108,21 +108,21 @@
       "properties": {
         "icao": "VEPT",
         "name": "Jay Prakash Narayan (Patna)",
-        "raw_metar": "METAR VEPT 250500Z 26003KT 1600 HZ NSC 24/14 Q1020 NOSIG",
-        "obs_time": "2026-11-25T05:00:00.000Z",
-        "flight_category": "LIFR",
+        "raw_metar": "METAR VEPT 250530Z 26004KT 1800 HZ NSC 24/13 Q1019 NOSIG",
+        "obs_time": "2026-11-25T05:30:00.000Z",
+        "flight_category": "IFR",
         "temp_c": 24,
-        "dewpoint_c": 14,
-        "qnh_hpa": 1020.0,
+        "dewpoint_c": 13,
+        "qnh_hpa": 1019.0,
         "wind_dir": 260,
-        "wind_speed_kt": 3,
+        "wind_speed_kt": 4,
         "wind_gust_kt": null,
-        "visibility_sm": 0.99,
+        "visibility_sm": 1.12,
         "ceiling_ft": null,
-        "density_altitude_ft": 895,
+        "density_altitude_ft": 932,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-25T05:35:32.966808+00:00"
+        "updated_utc": "2026-11-25T05:40:46.093313+00:00"
       }
     }
   ]
