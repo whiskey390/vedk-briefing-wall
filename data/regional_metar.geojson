@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-25T02:30:59.908927+00:00",
+  "generated_at_utc": "2026-11-25T02:35:36.252926+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDG",
@@ -21,21 +21,21 @@
       "properties": {
         "icao": "VEDG",
         "name": "Kazi Nazrul Islam (Durgapur)",
-        "raw_metar": "METAR VEDG 250200Z 00000KT 0700 R16/1200 MIFG FEW100 18/18 Q1020 BECMG 0800 MIFG",
-        "obs_time": "2026-11-25T02:00:00.000Z",
+        "raw_metar": "METAR VEDG 250230Z 27002KT 0900 R16/1400 MIFG FEW100 19/19 Q1020 NOSIG",
+        "obs_time": "2026-11-25T02:30:00.000Z",
         "flight_category": "LIFR",
-        "temp_c": 18,
-        "dewpoint_c": 18,
+        "temp_c": 19,
+        "dewpoint_c": 19,
         "qnh_hpa": 1020.0,
-        "wind_dir": 0,
-        "wind_speed_kt": 0,
+        "wind_dir": 270,
+        "wind_speed_kt": 2,
         "wind_gust_kt": null,
-        "visibility_sm": 0.43,
+        "visibility_sm": 0.56,
         "ceiling_ft": null,
-        "density_altitude_ft": 218,
+        "density_altitude_ft": 338,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-25T02:30:59.908871+00:00"
+        "updated_utc": "2026-11-25T02:35:36.252897+00:00"
       }
     },
     {
@@ -50,21 +50,21 @@
       "properties": {
         "icao": "VECC",
         "name": "Netaji Subhas Chandra Bose (Kolkata)",
-        "raw_metar": "METAR VECC 250200Z 04003KT 1800 BR FEW100 21/18 Q1019 NOSIG",
-        "obs_time": "2026-11-25T02:00:00.000Z",
+        "raw_metar": "METAR VECC 250230Z 02004KT 1800 BR FEW100 22/18 Q1019 NOSIG",
+        "obs_time": "2026-11-25T02:30:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 21,
+        "temp_c": 22,
         "dewpoint_c": 18,
         "qnh_hpa": 1019.0,
-        "wind_dir": 40,
-        "wind_speed_kt": 3,
+        "wind_dir": 20,
+        "wind_speed_kt": 4,
         "wind_gust_kt": null,
         "visibility_sm": 1.12,
         "ceiling_ft": null,
-        "density_altitude_ft": 520,
+        "density_altitude_ft": 640,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-25T02:30:59.908839+00:00"
+        "updated_utc": "2026-11-25T02:35:36.252910+00:00"
       }
     },
     {
@@ -79,21 +79,21 @@
       "properties": {
         "icao": "VERC",
         "name": "Birsa Munda (Ranchi)",
-        "raw_metar": "METAR VERC 250200Z 00000KT 1000 R31/1600 MIFG FEW020 15/14 Q1022 NOSIG",
-        "obs_time": "2026-11-25T02:00:00.000Z",
+        "raw_metar": "METAR VERC 250230Z 00000KT 1200 R31/1600 MIFG FEW020 18/15 Q1023 NOSIG",
+        "obs_time": "2026-11-25T02:30:00.000Z",
         "flight_category": "LIFR",
-        "temp_c": 15,
-        "dewpoint_c": 14,
-        "qnh_hpa": 1022.0,
+        "temp_c": 18,
+        "dewpoint_c": 15,
+        "qnh_hpa": 1023.0,
         "wind_dir": 0,
         "wind_speed_kt": 0,
         "wind_gust_kt": null,
-        "visibility_sm": 0.62,
+        "visibility_sm": 0.75,
         "ceiling_ft": null,
-        "density_altitude_ft": 475,
+        "density_altitude_ft": 797,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-25T02:30:59.908890+00:00"
+        "updated_utc": "2026-11-25T02:35:36.252860+00:00"
       }
     },
     {
@@ -122,7 +122,7 @@
         "density_altitude_ft": 55,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-25T02:30:59.908882+00:00"
+        "updated_utc": "2026-11-25T02:35:36.252920+00:00"
       }
     }
   ]
