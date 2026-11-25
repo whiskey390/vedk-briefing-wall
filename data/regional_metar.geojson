@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-25T12:35:40.162425+00:00",
+  "generated_at_utc": "2026-11-25T12:40:46.036656+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -21,21 +21,21 @@
       "properties": {
         "icao": "VEDO",
         "name": "Deoghar Airport",
-        "raw_metar": "METAR VEDO 251200Z 33003KT 2500 HZ NSC 19/11 Q1016 NOSIG",
-        "obs_time": "2026-11-25T12:00:00.000Z",
+        "raw_metar": "METAR VEDO 251230Z 34003KT 2500 HZ NSC 17/12 Q1017 NOSIG",
+        "obs_time": "2026-11-25T12:30:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 19,
-        "dewpoint_c": 11,
-        "qnh_hpa": 1016.0,
-        "wind_dir": 330,
+        "temp_c": 17,
+        "dewpoint_c": 12,
+        "qnh_hpa": 1017.0,
+        "wind_dir": 340,
         "wind_speed_kt": 3,
         "wind_gust_kt": null,
         "visibility_sm": 1.55,
         "ceiling_ft": null,
-        "density_altitude_ft": 680,
+        "density_altitude_ft": 403,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-25T12:35:40.162411+00:00"
+        "updated_utc": "2026-11-25T12:40:46.036641+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 764,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-25T12:35:40.162391+00:00"
+        "updated_utc": "2026-11-25T12:40:46.036621+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 1149,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-25T12:35:40.162402+00:00"
+        "updated_utc": "2026-11-25T12:40:46.036591+00:00"
       }
     },
     {
@@ -108,21 +108,21 @@
       "properties": {
         "icao": "VERC",
         "name": "Birsa Munda (Ranchi)",
-        "raw_metar": "METAR VERC 251200Z 35004KT 3000 HZ NSC 19/11 Q1019 NOSIG",
-        "obs_time": "2026-11-25T12:00:00.000Z",
+        "raw_metar": "METAR VERC 251230Z 33004KT 2500 HZ NSC 18/11 Q1019 NOSIG",
+        "obs_time": "2026-11-25T12:30:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 19,
+        "temp_c": 18,
         "dewpoint_c": 11,
         "qnh_hpa": 1019.0,
-        "wind_dir": 350,
+        "wind_dir": 330,
         "wind_speed_kt": 4,
         "wind_gust_kt": null,
-        "visibility_sm": 1.86,
+        "visibility_sm": 1.55,
         "ceiling_ft": null,
-        "density_altitude_ft": 1066,
+        "density_altitude_ft": 946,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-25T12:35:40.162418+00:00"
+        "updated_utc": "2026-11-25T12:40:46.036649+00:00"
       }
     },
     {
@@ -151,7 +151,7 @@
         "density_altitude_ft": 563,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-25T12:35:40.162361+00:00"
+        "updated_utc": "2026-11-25T12:40:46.036633+00:00"
       }
     }
   ]
