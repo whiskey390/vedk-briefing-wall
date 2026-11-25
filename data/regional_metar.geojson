@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-25T09:05:35.703557+00:00",
+  "generated_at_utc": "2026-11-25T09:10:45.596316+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 1280,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-25T09:05:35.703498+00:00"
+        "updated_utc": "2026-11-25T09:10:45.596246+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 1364,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-25T09:05:35.703531+00:00"
+        "updated_utc": "2026-11-25T09:10:45.596308+00:00"
       }
     },
     {
@@ -79,21 +79,21 @@
       "properties": {
         "icao": "VECC",
         "name": "Netaji Subhas Chandra Bose (Kolkata)",
-        "raw_metar": "METAR VECC 250830Z 34010KT 3500 HZ FEW100 27/15 Q1014 NOSIG",
-        "obs_time": "2026-11-25T08:30:00.000Z",
+        "raw_metar": "METAR VECC 250900Z 34008KT 3200 HZ FEW100 27/16 Q1014 NOSIG",
+        "obs_time": "2026-11-25T09:00:00.000Z",
         "flight_category": "IFR",
         "temp_c": 27,
-        "dewpoint_c": 15,
+        "dewpoint_c": 16,
         "qnh_hpa": 1014.0,
         "wind_dir": 340,
-        "wind_speed_kt": 10,
+        "wind_speed_kt": 8,
         "wind_gust_kt": null,
-        "visibility_sm": 2.17,
+        "visibility_sm": 1.99,
         "ceiling_ft": null,
         "density_altitude_ft": 1426,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-25T09:05:35.703545+00:00"
+        "updated_utc": "2026-11-25T09:10:45.596278+00:00"
       }
     },
     {
@@ -122,7 +122,7 @@
         "density_altitude_ft": 1546,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-25T09:05:35.703517+00:00"
+        "updated_utc": "2026-11-25T09:10:45.596299+00:00"
       }
     },
     {
@@ -151,7 +151,7 @@
         "density_altitude_ft": 1283,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-25T09:05:35.703461+00:00"
+        "updated_utc": "2026-11-25T09:10:45.596290+00:00"
       }
     }
   ]
