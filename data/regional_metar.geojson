@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-25T04:05:33.094113+00:00",
+  "generated_at_utc": "2026-11-25T04:10:43.398978+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDG",
@@ -21,21 +21,21 @@
       "properties": {
         "icao": "VEDG",
         "name": "Kazi Nazrul Islam (Durgapur)",
-        "raw_metar": "METAR VEDG 250330Z 35003KT 1200 R16/1700 BR FEW100 21/16 Q1020 BECMG 1500 FU",
-        "obs_time": "2026-11-25T03:30:00.000Z",
-        "flight_category": "LIFR",
-        "temp_c": 21,
-        "dewpoint_c": 16,
+        "raw_metar": "METAR VEDG 250400Z 35004KT 1800 FU FEW100 23/13 Q1020 NOSIG",
+        "obs_time": "2026-11-25T04:00:00.000Z",
+        "flight_category": "IFR",
+        "temp_c": 23,
+        "dewpoint_c": 13,
         "qnh_hpa": 1020.0,
         "wind_dir": 350,
-        "wind_speed_kt": 3,
+        "wind_speed_kt": 4,
         "wind_gust_kt": null,
-        "visibility_sm": 0.75,
+        "visibility_sm": 1.12,
         "ceiling_ft": null,
-        "density_altitude_ft": 578,
+        "density_altitude_ft": 818,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-25T04:05:33.094085+00:00"
+        "updated_utc": "2026-11-25T04:10:43.398970+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 1000,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-25T04:05:33.093991+00:00"
+        "updated_utc": "2026-11-25T04:10:43.398909+00:00"
       }
     },
     {
@@ -79,7 +79,7 @@
       "properties": {
         "icao": "VERC",
         "name": "Birsa Munda (Ranchi)",
-        "raw_metar": "METAR VERC 250400Z 03002KT 1800 BR FEW020 21/13 Q1024 NOSIG",
+        "raw_metar": "METAR VERC 250400Z COR 03002KT 1800 BR FEW020 21/13 Q1024 NOSIG",
         "obs_time": "2026-11-25T04:00:00.000Z",
         "flight_category": "IFR",
         "temp_c": 21,
@@ -93,7 +93,7 @@
         "density_altitude_ft": 1120,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-25T04:05:33.094030+00:00"
+        "updated_utc": "2026-11-25T04:10:43.398957+00:00"
       }
     },
     {
@@ -108,21 +108,21 @@
       "properties": {
         "icao": "VEPT",
         "name": "Jay Prakash Narayan (Patna)",
-        "raw_metar": "METAR VEPT 250330Z 25003KT 1200 R25/2000 R07/2000 MIFG NSC 20/15 Q1021 NOSIG",
-        "obs_time": "2026-11-25T03:30:00.000Z",
+        "raw_metar": "METAR VEPT 250400Z 24003KT 1400 R25/2000 R07/2000 BR NSC 21/15 Q1021 BECMG 1500 HZ",
+        "obs_time": "2026-11-25T04:00:00.000Z",
         "flight_category": "LIFR",
-        "temp_c": 20,
+        "temp_c": 21,
         "dewpoint_c": 15,
         "qnh_hpa": 1021.0,
-        "wind_dir": 250,
+        "wind_dir": 240,
         "wind_speed_kt": 3,
         "wind_gust_kt": null,
-        "visibility_sm": 0.75,
+        "visibility_sm": 0.87,
         "ceiling_ft": null,
-        "density_altitude_ft": 378,
+        "density_altitude_ft": 498,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-25T04:05:33.094102+00:00"
+        "updated_utc": "2026-11-25T04:10:43.398942+00:00"
       }
     }
   ]
