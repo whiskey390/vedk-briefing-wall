@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-25T09:15:44.344479+00:00",
+  "generated_at_utc": "2026-11-25T09:20:46.714557+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 1280,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-25T09:15:44.344379+00:00"
+        "updated_utc": "2026-11-25T09:20:46.714486+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 1364,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-25T09:15:44.344470+00:00"
+        "updated_utc": "2026-11-25T09:20:46.714550+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 1426,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-25T09:15:44.344421+00:00"
+        "updated_utc": "2026-11-25T09:20:46.714520+00:00"
       }
     },
     {
@@ -122,7 +122,7 @@
         "density_altitude_ft": 1546,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-25T09:15:44.344455+00:00"
+        "updated_utc": "2026-11-25T09:20:46.714542+00:00"
       }
     },
     {
@@ -151,7 +151,7 @@
         "density_altitude_ft": 1283,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-25T09:15:44.344439+00:00"
+        "updated_utc": "2026-11-25T09:20:46.714532+00:00"
       }
     }
   ]
