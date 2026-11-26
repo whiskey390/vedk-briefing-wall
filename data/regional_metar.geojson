@@ -1,43 +1,14 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-26T17:25:34.647887+00:00",
+  "generated_at_utc": "2026-11-26T17:31:02.575223+00:00",
   "home_base": "VEDK",
   "nearest_three": [
-    "VEDO",
     "VECC",
-    "VERC"
+    "VERC",
+    "VEPT"
   ],
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          86.707,
-          24.446
-        ]
-      },
-      "properties": {
-        "icao": "VEDO",
-        "name": "Deoghar Airport",
-        "raw_metar": "METAR VEDO 261430Z 33004KT 1800 BR NSC 17/12 Q1018 NOSIG",
-        "obs_time": "2026-11-26T14:30:00.000Z",
-        "flight_category": "IFR",
-        "temp_c": 17,
-        "dewpoint_c": 12,
-        "qnh_hpa": 1018.0,
-        "wind_dir": 330,
-        "wind_speed_kt": 4,
-        "wind_gust_kt": null,
-        "visibility_sm": 1.12,
-        "ceiling_ft": null,
-        "density_altitude_ft": 366,
-        "dist_nm": 33.4,
-        "bearing_deg": 293,
-        "updated_utc": "2026-11-26T17:25:34.647874+00:00"
-      }
-    },
     {
       "type": "Feature",
       "geometry": {
@@ -64,7 +35,7 @@
         "density_altitude_ft": 752,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-26T17:25:34.647783+00:00"
+        "updated_utc": "2026-11-26T17:31:02.575182+00:00"
       }
     },
     {
@@ -93,7 +64,7 @@
         "density_altitude_ft": 392,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-26T17:25:34.647855+00:00"
+        "updated_utc": "2026-11-26T17:31:02.575218+00:00"
       }
     },
     {
@@ -122,7 +93,7 @@
         "density_altitude_ft": 129,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-26T17:25:34.647831+00:00"
+        "updated_utc": "2026-11-26T17:31:02.575206+00:00"
       }
     }
   ]
