@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-26T01:35:34.264417+00:00",
+  "generated_at_utc": "2026-11-26T01:40:51.095478+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDG",
@@ -21,21 +21,21 @@
       "properties": {
         "icao": "VEDG",
         "name": "Kazi Nazrul Islam (Durgapur)",
-        "raw_metar": "METAR VEDG 260100Z 29002KT 1400 R16/1900 BR NSC 14/13 Q1017 NOSIG",
-        "obs_time": "2026-11-26T01:00:00.000Z",
+        "raw_metar": "METAR VEDG 260130Z 32005KT 1200 R16/1700 BR NSC 16/14 Q1017 NOSIG",
+        "obs_time": "2026-11-26T01:30:00.000Z",
         "flight_category": "LIFR",
-        "temp_c": 14,
-        "dewpoint_c": 13,
+        "temp_c": 16,
+        "dewpoint_c": 14,
         "qnh_hpa": 1017.0,
-        "wind_dir": 290,
-        "wind_speed_kt": 2,
+        "wind_dir": 320,
+        "wind_speed_kt": 5,
         "wind_gust_kt": null,
-        "visibility_sm": 0.87,
+        "visibility_sm": 0.75,
         "ceiling_ft": null,
-        "density_altitude_ft": -150,
+        "density_altitude_ft": 90,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-26T01:35:34.264397+00:00"
+        "updated_utc": "2026-11-26T01:40:51.095464+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 392,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-26T01:35:34.264349+00:00"
+        "updated_utc": "2026-11-26T01:40:51.095424+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 189,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-26T01:35:34.264409+00:00"
+        "updated_utc": "2026-11-26T01:40:51.095472+00:00"
       }
     },
     {
@@ -122,7 +122,7 @@
         "density_altitude_ft": -74,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-26T01:35:34.264382+00:00"
+        "updated_utc": "2026-11-26T01:40:51.095454+00:00"
       }
     }
   ]
