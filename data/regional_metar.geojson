@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-26T02:31:06.671995+00:00",
+  "generated_at_utc": "2026-11-26T02:35:40.368425+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDG",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 210,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-26T02:31:06.671955+00:00"
+        "updated_utc": "2026-11-26T02:35:40.368413+00:00"
       }
     },
     {
@@ -50,21 +50,21 @@
       "properties": {
         "icao": "VECC",
         "name": "Netaji Subhas Chandra Bose (Kolkata)",
-        "raw_metar": "METAR VECC 260200Z 34004KT 1400 R01R/1900 BR NSC 20/16 Q1017 BECMG 1500 BR",
-        "obs_time": "2026-11-26T02:00:00.000Z",
+        "raw_metar": "METAR VECC 260230Z 34006KT 1500 BR NSC 21/16 Q1017 NOSIG",
+        "obs_time": "2026-11-26T02:30:00.000Z",
         "flight_category": "LIFR",
-        "temp_c": 20,
+        "temp_c": 21,
         "dewpoint_c": 16,
         "qnh_hpa": 1017.0,
         "wind_dir": 340,
-        "wind_speed_kt": 4,
+        "wind_speed_kt": 6,
         "wind_gust_kt": null,
-        "visibility_sm": 0.87,
+        "visibility_sm": 0.93,
         "ceiling_ft": null,
-        "density_altitude_ft": 474,
+        "density_altitude_ft": 594,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-26T02:31:06.671925+00:00"
+        "updated_utc": "2026-11-26T02:35:40.368376+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 512,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-26T02:31:06.671981+00:00"
+        "updated_utc": "2026-11-26T02:35:40.368420+00:00"
       }
     },
     {
@@ -108,21 +108,21 @@
       "properties": {
         "icao": "VEPT",
         "name": "Jay Prakash Narayan (Patna)",
-        "raw_metar": "METAR VEPT 260200Z 24004KT 1400 R25/2000 R07/2000 BR NSC 16/14 Q1018 NOSIG",
-        "obs_time": "2026-11-26T02:00:00.000Z",
+        "raw_metar": "METAR VEPT 260230Z 25005KT 1400 R25/2000 R07/1900 BR NSC 18/14 Q1018 NOSIG",
+        "obs_time": "2026-11-26T02:30:00.000Z",
         "flight_category": "LIFR",
-        "temp_c": 16,
+        "temp_c": 18,
         "dewpoint_c": 14,
         "qnh_hpa": 1018.0,
-        "wind_dir": 240,
-        "wind_speed_kt": 4,
+        "wind_dir": 250,
+        "wind_speed_kt": 5,
         "wind_gust_kt": null,
         "visibility_sm": 0.87,
         "ceiling_ft": null,
-        "density_altitude_ft": 9,
+        "density_altitude_ft": 249,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-26T02:31:06.671988+00:00"
+        "updated_utc": "2026-11-26T02:35:40.368404+00:00"
       }
     }
   ]
