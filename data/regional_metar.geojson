@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-26T17:01:30.511039+00:00",
+  "generated_at_utc": "2026-11-26T17:05:33.875697+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 366,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-26T17:01:30.511031+00:00"
+        "updated_utc": "2026-11-26T17:05:33.875690+00:00"
       }
     },
     {
@@ -50,21 +50,21 @@
       "properties": {
         "icao": "VECC",
         "name": "Netaji Subhas Chandra Bose (Kolkata)",
-        "raw_metar": "METAR VECC 261630Z 30003KT 2200 BR FEW100 22/18 Q1017 NOSIG",
-        "obs_time": "2026-11-26T16:30:00.000Z",
+        "raw_metar": "METAR VECC 261700Z 30003KT 2000 BR FEW100 22/18 Q1016 NOSIG",
+        "obs_time": "2026-11-26T17:00:00.000Z",
         "flight_category": "IFR",
         "temp_c": 22,
         "dewpoint_c": 18,
-        "qnh_hpa": 1017.0,
+        "qnh_hpa": 1016.0,
         "wind_dir": 300,
         "wind_speed_kt": 3,
         "wind_gust_kt": null,
-        "visibility_sm": 1.37,
+        "visibility_sm": 1.24,
         "ceiling_ft": null,
-        "density_altitude_ft": 714,
+        "density_altitude_ft": 752,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-26T17:01:30.511011+00:00"
+        "updated_utc": "2026-11-26T17:05:33.875639+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 392,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-26T17:01:30.510977+00:00"
+        "updated_utc": "2026-11-26T17:05:33.875682+00:00"
       }
     },
     {
@@ -108,10 +108,10 @@
       "properties": {
         "icao": "VEPT",
         "name": "Jay Prakash Narayan (Patna)",
-        "raw_metar": "METAR VEPT 261630Z 00000KT 2200 BR NSC 18/14 Q1018 NOSIG",
-        "obs_time": "2026-11-26T16:30:00.000Z",
+        "raw_metar": "METAR VEPT 261700Z 00000KT 2200 BR NSC 17/14 Q1018 NOSIG",
+        "obs_time": "2026-11-26T17:00:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 18,
+        "temp_c": 17,
         "dewpoint_c": 14,
         "qnh_hpa": 1018.0,
         "wind_dir": 0,
@@ -119,10 +119,10 @@
         "wind_gust_kt": null,
         "visibility_sm": 1.37,
         "ceiling_ft": null,
-        "density_altitude_ft": 249,
+        "density_altitude_ft": 129,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-26T17:01:30.511023+00:00"
+        "updated_utc": "2026-11-26T17:05:33.875671+00:00"
       }
     }
   ]
