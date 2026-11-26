@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-26T03:05:40.666421+00:00",
+  "generated_at_utc": "2026-11-26T03:10:45.804485+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDG",
@@ -21,21 +21,21 @@
       "properties": {
         "icao": "VEDG",
         "name": "Kazi Nazrul Islam (Durgapur)",
-        "raw_metar": "METAR VEDG 260230Z 30005KT 1200 R16/1700 BR NSC 18/14 Q1018 NOSIG",
-        "obs_time": "2026-11-26T02:30:00.000Z",
+        "raw_metar": "METAR VEDG 260300Z 31004KT 1400 R16/1900 BR NSC 19/15 Q1018 BECMG 1500 FU",
+        "obs_time": "2026-11-26T03:00:00.000Z",
         "flight_category": "LIFR",
-        "temp_c": 18,
-        "dewpoint_c": 14,
+        "temp_c": 19,
+        "dewpoint_c": 15,
         "qnh_hpa": 1018.0,
-        "wind_dir": 300,
-        "wind_speed_kt": 5,
+        "wind_dir": 310,
+        "wind_speed_kt": 4,
         "wind_gust_kt": null,
-        "visibility_sm": 0.75,
+        "visibility_sm": 0.87,
         "ceiling_ft": null,
-        "density_altitude_ft": 293,
+        "density_altitude_ft": 413,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-26T03:05:40.666413+00:00"
+        "updated_utc": "2026-11-26T03:10:45.804469+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 714,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-26T03:05:40.666391+00:00"
+        "updated_utc": "2026-11-26T03:10:45.804457+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 835,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-26T03:05:40.666403+00:00"
+        "updated_utc": "2026-11-26T03:10:45.804425+00:00"
       }
     },
     {
@@ -122,7 +122,7 @@
         "density_altitude_ft": 332,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-26T03:05:40.666361+00:00"
+        "updated_utc": "2026-11-26T03:10:45.804478+00:00"
       }
     }
   ]
