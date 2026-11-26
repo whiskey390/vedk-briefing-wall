@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-26T21:01:26.936488+00:00",
+  "generated_at_utc": "2026-11-26T21:05:43.827832+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VECC",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 392,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-26T21:01:26.936439+00:00"
+        "updated_utc": "2026-11-26T21:05:43.827817+00:00"
       }
     },
     {
@@ -50,21 +50,21 @@
       "properties": {
         "icao": "VERC",
         "name": "Birsa Munda (Ranchi)",
-        "raw_metar": "METAR VERC 262000Z 00000KT 1500 BR NSC 12/10 Q1021 NOSIG",
-        "obs_time": "2026-11-26T20:00:00.000Z",
+        "raw_metar": "METAR VERC 262100Z 32004KT 1500 BR NSC 11/09 Q1021 NOSIG",
+        "obs_time": "2026-11-26T21:00:00.000Z",
         "flight_category": "LIFR",
-        "temp_c": 12,
-        "dewpoint_c": 10,
+        "temp_c": 11,
+        "dewpoint_c": 9,
         "qnh_hpa": 1021.0,
-        "wind_dir": 0,
-        "wind_speed_kt": 0,
+        "wind_dir": 320,
+        "wind_speed_kt": 4,
         "wind_gust_kt": null,
         "visibility_sm": 0.93,
         "ceiling_ft": null,
-        "density_altitude_ft": 152,
+        "density_altitude_ft": 32,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-26T21:01:26.936481+00:00"
+        "updated_utc": "2026-11-26T21:05:43.827827+00:00"
       }
     },
     {
@@ -79,8 +79,8 @@
       "properties": {
         "icao": "VEPT",
         "name": "Jay Prakash Narayan (Patna)",
-        "raw_metar": "METAR VEPT 262030Z 00000KT 1600 BR NSC 15/14 Q1017 NOSIG",
-        "obs_time": "2026-11-26T20:30:00.000Z",
+        "raw_metar": "METAR VEPT 262100Z 00000KT 1600 BR NSC 15/14 Q1017 BECMG 1500 BR",
+        "obs_time": "2026-11-26T21:00:00.000Z",
         "flight_category": "LIFR",
         "temp_c": 15,
         "dewpoint_c": 14,
@@ -93,7 +93,7 @@
         "density_altitude_ft": -74,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-26T21:01:26.936471+00:00"
+        "updated_utc": "2026-11-26T21:05:43.827795+00:00"
       }
     }
   ]
