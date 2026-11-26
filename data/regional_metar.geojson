@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-26T04:55:34.238679+00:00",
+  "generated_at_utc": "2026-11-26T05:01:16.102186+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDG",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 893,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-26T04:55:34.238592+00:00"
+        "updated_utc": "2026-11-26T05:01:16.102159+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 954,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-26T04:55:34.238616+00:00"
+        "updated_utc": "2026-11-26T05:01:16.102178+00:00"
       }
     },
     {
@@ -79,21 +79,21 @@
       "properties": {
         "icao": "VERC",
         "name": "Birsa Munda (Ranchi)",
-        "raw_metar": "METAR VERC 260430Z 34005KT 2500 HZ NSC 20/11 Q1022 BECMG 3000 HZ",
-        "obs_time": "2026-11-26T04:30:00.000Z",
+        "raw_metar": "METAR VERC 260500Z 03003KT 2500 HZ NSC 21/11 Q1021 BECMG 3000 HZ",
+        "obs_time": "2026-11-26T05:00:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 20,
+        "temp_c": 21,
         "dewpoint_c": 11,
-        "qnh_hpa": 1022.0,
-        "wind_dir": 340,
-        "wind_speed_kt": 5,
+        "qnh_hpa": 1021.0,
+        "wind_dir": 30,
+        "wind_speed_kt": 3,
         "wind_gust_kt": null,
         "visibility_sm": 1.55,
         "ceiling_ft": null,
-        "density_altitude_ft": 1075,
+        "density_altitude_ft": 1232,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-26T04:55:34.238670+00:00"
+        "updated_utc": "2026-11-26T05:01:16.102127+00:00"
       }
     },
     {
@@ -122,7 +122,7 @@
         "density_altitude_ft": 692,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-26T04:55:34.238539+00:00"
+        "updated_utc": "2026-11-26T05:01:16.102170+00:00"
       }
     }
   ]
