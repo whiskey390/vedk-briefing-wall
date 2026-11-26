@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-26T14:45:49.955527+00:00",
+  "generated_at_utc": "2026-11-26T14:50:51.824586+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -21,21 +21,21 @@
       "properties": {
         "icao": "VEDO",
         "name": "Deoghar Airport",
-        "raw_metar": "METAR VEDO 261400Z 32003KT 1800 BR NSC 17/12 Q1017 NOSIG",
-        "obs_time": "2026-11-26T14:00:00.000Z",
+        "raw_metar": "METAR VEDO 261430Z 33004KT 1800 BR NSC 17/12 Q1018 NOSIG",
+        "obs_time": "2026-11-26T14:30:00.000Z",
         "flight_category": "IFR",
         "temp_c": 17,
         "dewpoint_c": 12,
-        "qnh_hpa": 1017.0,
-        "wind_dir": 320,
-        "wind_speed_kt": 3,
+        "qnh_hpa": 1018.0,
+        "wind_dir": 330,
+        "wind_speed_kt": 4,
         "wind_gust_kt": null,
         "visibility_sm": 1.12,
         "ceiling_ft": null,
-        "density_altitude_ft": 403,
+        "density_altitude_ft": 366,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-26T14:45:49.955509+00:00"
+        "updated_utc": "2026-11-26T14:50:51.824503+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 644,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-26T14:45:49.955519+00:00"
+        "updated_utc": "2026-11-26T14:50:51.824578+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 872,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-26T14:45:49.955484+00:00"
+        "updated_utc": "2026-11-26T14:50:51.824555+00:00"
       }
     },
     {
@@ -108,21 +108,21 @@
       "properties": {
         "icao": "VERC",
         "name": "Birsa Munda (Ranchi)",
-        "raw_metar": "METAR VERC 261400Z 32004KT 1800 BR NSC 15/11 Q1020 BECMG 1500 BR",
-        "obs_time": "2026-11-26T14:00:00.000Z",
-        "flight_category": "IFR",
-        "temp_c": 15,
+        "raw_metar": "METAR VERC 261430Z 33006KT 1500 BR NSC 16/11 Q1020 NOSIG",
+        "obs_time": "2026-11-26T14:30:00.000Z",
+        "flight_category": "LIFR",
+        "temp_c": 16,
         "dewpoint_c": 11,
         "qnh_hpa": 1020.0,
-        "wind_dir": 320,
-        "wind_speed_kt": 4,
+        "wind_dir": 330,
+        "wind_speed_kt": 6,
         "wind_gust_kt": null,
-        "visibility_sm": 1.12,
+        "visibility_sm": 0.93,
         "ceiling_ft": null,
-        "density_altitude_ft": 549,
+        "density_altitude_ft": 669,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-26T14:45:49.955498+00:00"
+        "updated_utc": "2026-11-26T14:50:51.824540+00:00"
       }
     },
     {
@@ -151,7 +151,7 @@
         "density_altitude_ft": 526,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-26T14:45:49.955450+00:00"
+        "updated_utc": "2026-11-26T14:50:51.824567+00:00"
       }
     }
   ]
