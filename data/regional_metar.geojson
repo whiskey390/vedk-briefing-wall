@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-26T07:40:47.906078+00:00",
+  "generated_at_utc": "2026-11-26T07:45:46.810759+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -21,21 +21,21 @@
       "properties": {
         "icao": "VEDO",
         "name": "Deoghar Airport",
-        "raw_metar": "METAR VEDO 260700Z 31004KT 3000 HZ NSC 24/11 Q1016 NOSIG",
-        "obs_time": "2026-11-26T07:00:00.000Z",
+        "raw_metar": "METAR VEDO 260730Z 36004KT 3500 HZ NSC 25/10 Q1016 NOSIG",
+        "obs_time": "2026-11-26T07:30:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 24,
-        "dewpoint_c": 11,
+        "temp_c": 25,
+        "dewpoint_c": 10,
         "qnh_hpa": 1016.0,
-        "wind_dir": 310,
+        "wind_dir": 360,
         "wind_speed_kt": 4,
         "wind_gust_kt": null,
-        "visibility_sm": 1.86,
+        "visibility_sm": 2.17,
         "ceiling_ft": null,
-        "density_altitude_ft": 1280,
+        "density_altitude_ft": 1400,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-26T07:40:47.906067+00:00"
+        "updated_utc": "2026-11-26T07:45:46.810729+00:00"
       }
     },
     {
@@ -50,21 +50,21 @@
       "properties": {
         "icao": "VEDG",
         "name": "Kazi Nazrul Islam (Durgapur)",
-        "raw_metar": "METAR VEDG 260700Z 04004KT 3200 HZ NSC 26/14 Q1015 NOSIG",
-        "obs_time": "2026-11-26T07:00:00.000Z",
+        "raw_metar": "METAR VEDG 260730Z 36004KT 3400 HZ NSC 27/14 Q1015 NOSIG",
+        "obs_time": "2026-11-26T07:30:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 26,
+        "temp_c": 27,
         "dewpoint_c": 14,
         "qnh_hpa": 1015.0,
-        "wind_dir": 40,
+        "wind_dir": 360,
         "wind_speed_kt": 4,
         "wind_gust_kt": null,
-        "visibility_sm": 1.99,
+        "visibility_sm": 2.11,
         "ceiling_ft": null,
-        "density_altitude_ft": 1364,
+        "density_altitude_ft": 1484,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-26T07:40:47.906055+00:00"
+        "updated_utc": "2026-11-26T07:45:46.810740+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 1306,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-26T07:40:47.906044+00:00"
+        "updated_utc": "2026-11-26T07:45:46.810683+00:00"
       }
     },
     {
@@ -122,7 +122,7 @@
         "density_altitude_ft": 1546,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-26T07:40:47.906026+00:00"
+        "updated_utc": "2026-11-26T07:45:46.810751+00:00"
       }
     },
     {
@@ -151,7 +151,7 @@
         "density_altitude_ft": 1321,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-26T07:40:47.905986+00:00"
+        "updated_utc": "2026-11-26T07:45:46.810715+00:00"
       }
     }
   ]
