@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-27T12:55:39.021131+00:00",
+  "generated_at_utc": "2026-11-27T13:01:31.193428+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 568,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-27T12:55:39.021095+00:00"
+        "updated_utc": "2026-11-27T13:01:31.193420+00:00"
       }
     },
     {
@@ -50,21 +50,21 @@
       "properties": {
         "icao": "VEDG",
         "name": "Kazi Nazrul Islam (Durgapur)",
-        "raw_metar": "METAR VEDG 271200Z 34003KT 2500 HZ NSC 21/15 Q1017 NOSIG",
-        "obs_time": "2026-11-27T12:00:00.000Z",
+        "raw_metar": "METAR VEDG 271230Z 32004KT 2500 HZ NSC 21/15 Q1018 NOSIG",
+        "obs_time": "2026-11-27T12:30:00.000Z",
         "flight_category": "IFR",
         "temp_c": 21,
         "dewpoint_c": 15,
-        "qnh_hpa": 1017.0,
-        "wind_dir": 340,
-        "wind_speed_kt": 3,
+        "qnh_hpa": 1018.0,
+        "wind_dir": 320,
+        "wind_speed_kt": 4,
         "wind_gust_kt": null,
         "visibility_sm": 1.55,
         "ceiling_ft": null,
-        "density_altitude_ft": 690,
+        "density_altitude_ft": 653,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-27T12:55:39.021116+00:00"
+        "updated_utc": "2026-11-27T13:01:31.193406+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 954,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-27T12:55:39.021064+00:00"
+        "updated_utc": "2026-11-27T13:01:31.193413+00:00"
       }
     },
     {
@@ -108,21 +108,21 @@
       "properties": {
         "icao": "VERC",
         "name": "Birsa Munda (Ranchi)",
-        "raw_metar": "METAR VERC 271200Z 00000KT 2500 HZ NSC 18/09 Q1021 NOSIG",
-        "obs_time": "2026-11-27T12:00:00.000Z",
+        "raw_metar": "METAR VERC 271300Z 00000KT 2000 HZ NSC 17/09 Q1022 NOSIG",
+        "obs_time": "2026-11-27T13:00:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 18,
+        "temp_c": 17,
         "dewpoint_c": 9,
-        "qnh_hpa": 1021.0,
+        "qnh_hpa": 1022.0,
         "wind_dir": 0,
         "wind_speed_kt": 0,
         "wind_gust_kt": null,
-        "visibility_sm": 1.55,
+        "visibility_sm": 1.24,
         "ceiling_ft": null,
-        "density_altitude_ft": 872,
+        "density_altitude_ft": 715,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-27T12:55:39.021123+00:00"
+        "updated_utc": "2026-11-27T13:01:31.193358+00:00"
       }
     },
     {
@@ -151,7 +151,7 @@
         "density_altitude_ft": 489,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-27T12:55:39.021107+00:00"
+        "updated_utc": "2026-11-27T13:01:31.193395+00:00"
       }
     }
   ]
