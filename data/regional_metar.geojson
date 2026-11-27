@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-27T11:45:49.127720+00:00",
+  "generated_at_utc": "2026-11-27T11:50:51.818977+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 1086,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-27T11:45:49.127694+00:00"
+        "updated_utc": "2026-11-27T11:50:51.818972+00:00"
       }
     },
     {
@@ -50,21 +50,21 @@
       "properties": {
         "icao": "VEDG",
         "name": "Kazi Nazrul Islam (Durgapur)",
-        "raw_metar": "METAR VEDG 271100Z 36005KT 3200 HZ NSC 24/15 Q1017 BECMG 3000 HZ",
-        "obs_time": "2026-11-27T11:00:00.000Z",
+        "raw_metar": "METAR VEDG 271130Z 36003KT 2500 HZ NSC 22/15 Q1017 NOSIG",
+        "obs_time": "2026-11-27T11:30:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 24,
+        "temp_c": 22,
         "dewpoint_c": 15,
         "qnh_hpa": 1017.0,
         "wind_dir": 360,
-        "wind_speed_kt": 5,
+        "wind_speed_kt": 3,
         "wind_gust_kt": null,
-        "visibility_sm": 1.99,
+        "visibility_sm": 1.55,
         "ceiling_ft": null,
-        "density_altitude_ft": 1050,
+        "density_altitude_ft": 810,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-27T11:45:49.127703+00:00"
+        "updated_utc": "2026-11-27T11:50:51.818950+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 992,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-27T11:45:49.127683+00:00"
+        "updated_utc": "2026-11-27T11:50:51.818930+00:00"
       }
     },
     {
@@ -122,7 +122,7 @@
         "density_altitude_ft": 1232,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-27T11:45:49.127712+00:00"
+        "updated_utc": "2026-11-27T11:50:51.818966+00:00"
       }
     },
     {
@@ -151,7 +151,7 @@
         "density_altitude_ft": 849,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-27T11:45:49.127653+00:00"
+        "updated_utc": "2026-11-27T11:50:51.818960+00:00"
       }
     }
   ]
