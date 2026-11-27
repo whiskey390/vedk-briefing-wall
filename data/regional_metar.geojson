@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-27T08:25:35.010059+00:00",
+  "generated_at_utc": "2026-11-27T08:31:10.675797+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 1326,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-27T08:25:35.010053+00:00"
+        "updated_utc": "2026-11-27T08:31:10.675754+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 1410,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-27T08:25:35.010044+00:00"
+        "updated_utc": "2026-11-27T08:31:10.675768+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 1352,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-27T08:25:35.010035+00:00"
+        "updated_utc": "2026-11-27T08:31:10.675789+00:00"
       }
     },
     {
@@ -108,21 +108,21 @@
       "properties": {
         "icao": "VERC",
         "name": "Birsa Munda (Ranchi)",
-        "raw_metar": "METAR VERC 270800Z 01005KT 3000 HZ NSC 23/05 Q1021 NOSIG",
-        "obs_time": "2026-11-27T08:00:00.000Z",
+        "raw_metar": "METAR VERC 270830Z 01004KT 3000 HZ NSC 23/05 Q1021 NOSIG",
+        "obs_time": "2026-11-27T08:30:00.000Z",
         "flight_category": "IFR",
         "temp_c": 23,
         "dewpoint_c": 5,
         "qnh_hpa": 1021.0,
         "wind_dir": 10,
-        "wind_speed_kt": 5,
+        "wind_speed_kt": 4,
         "wind_gust_kt": null,
         "visibility_sm": 1.86,
         "ceiling_ft": null,
         "density_altitude_ft": 1472,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-27T08:25:35.010023+00:00"
+        "updated_utc": "2026-11-27T08:31:10.675724+00:00"
       }
     },
     {
@@ -151,7 +151,7 @@
         "density_altitude_ft": 1329,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-27T08:25:35.009988+00:00"
+        "updated_utc": "2026-11-27T08:31:10.675779+00:00"
       }
     }
   ]
