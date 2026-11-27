@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-27T15:31:14.685349+00:00",
+  "generated_at_utc": "2026-11-27T15:35:43.891078+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 411,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-27T15:31:14.685341+00:00"
+        "updated_utc": "2026-11-27T15:35:43.891071+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 495,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-27T15:31:14.685321+00:00"
+        "updated_utc": "2026-11-27T15:35:43.891035+00:00"
       }
     },
     {
@@ -79,21 +79,21 @@
       "properties": {
         "icao": "VECC",
         "name": "Netaji Subhas Chandra Bose (Kolkata)",
-        "raw_metar": "METAR VECC 271500Z 34004KT 3200 HZ NSC 22/17 Q1018 NOSIG",
-        "obs_time": "2026-11-27T15:00:00.000Z",
+        "raw_metar": "METAR VECC 271530Z 33005KT 3200 HZ NSC 23/16 Q1018 NOSIG",
+        "obs_time": "2026-11-27T15:30:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 22,
-        "dewpoint_c": 17,
+        "temp_c": 23,
+        "dewpoint_c": 16,
         "qnh_hpa": 1018.0,
-        "wind_dir": 340,
-        "wind_speed_kt": 4,
+        "wind_dir": 330,
+        "wind_speed_kt": 5,
         "wind_gust_kt": null,
         "visibility_sm": 1.99,
         "ceiling_ft": null,
-        "density_altitude_ft": 677,
+        "density_altitude_ft": 797,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-27T15:31:14.685243+00:00"
+        "updated_utc": "2026-11-27T15:35:43.891002+00:00"
       }
     },
     {
@@ -122,7 +122,7 @@
         "density_altitude_ft": 557,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-27T15:31:14.685331+00:00"
+        "updated_utc": "2026-11-27T15:35:43.891049+00:00"
       }
     },
     {
@@ -151,7 +151,7 @@
         "density_altitude_ft": 212,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-27T15:31:14.685308+00:00"
+        "updated_utc": "2026-11-27T15:35:43.891060+00:00"
       }
     }
   ]
