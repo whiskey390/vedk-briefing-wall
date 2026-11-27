@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-27T12:50:52.695101+00:00",
+  "generated_at_utc": "2026-11-27T12:55:39.021131+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -21,21 +21,21 @@
       "properties": {
         "icao": "VEDO",
         "name": "Deoghar Airport",
-        "raw_metar": "METAR VEDO 271200Z 02003KT 3000 HZ NSC 20/13 Q1019 NOSIG",
-        "obs_time": "2026-11-27T12:00:00.000Z",
+        "raw_metar": "METAR VEDO 271230Z 35003KT 2500 HZ NSC 19/14 Q1019 NOSIG",
+        "obs_time": "2026-11-27T12:30:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 20,
-        "dewpoint_c": 13,
+        "temp_c": 19,
+        "dewpoint_c": 14,
         "qnh_hpa": 1019.0,
-        "wind_dir": 20,
+        "wind_dir": 350,
         "wind_speed_kt": 3,
         "wind_gust_kt": null,
-        "visibility_sm": 1.86,
+        "visibility_sm": 1.55,
         "ceiling_ft": null,
-        "density_altitude_ft": 688,
+        "density_altitude_ft": 568,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-27T12:50:52.695076+00:00"
+        "updated_utc": "2026-11-27T12:55:39.021095+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 690,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-27T12:50:52.695094+00:00"
+        "updated_utc": "2026-11-27T12:55:39.021116+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 954,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-27T12:50:52.695064+00:00"
+        "updated_utc": "2026-11-27T12:55:39.021064+00:00"
       }
     },
     {
@@ -122,7 +122,7 @@
         "density_altitude_ft": 872,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-27T12:50:52.695085+00:00"
+        "updated_utc": "2026-11-27T12:55:39.021123+00:00"
       }
     },
     {
@@ -151,7 +151,7 @@
         "density_altitude_ft": 489,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-27T12:50:52.695031+00:00"
+        "updated_utc": "2026-11-27T12:55:39.021107+00:00"
       }
     }
   ]
