@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-27T18:31:06.403278+00:00",
+  "generated_at_utc": "2026-11-27T18:35:43.755826+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VECC",
@@ -21,21 +21,21 @@
       "properties": {
         "icao": "VECC",
         "name": "Netaji Subhas Chandra Bose (Kolkata)",
-        "raw_metar": "METAR VECC 271800Z 34003KT 2800 HZ NSC 21/17 Q1017 NOSIG",
-        "obs_time": "2026-11-27T18:00:00.000Z",
+        "raw_metar": "METAR VECC 271830Z 36004KT 2800 HZ NSC 21/16 Q1017 NOSIG",
+        "obs_time": "2026-11-27T18:30:00.000Z",
         "flight_category": "IFR",
         "temp_c": 21,
-        "dewpoint_c": 17,
+        "dewpoint_c": 16,
         "qnh_hpa": 1017.0,
-        "wind_dir": 340,
-        "wind_speed_kt": 3,
+        "wind_dir": 360,
+        "wind_speed_kt": 4,
         "wind_gust_kt": null,
         "visibility_sm": 1.74,
         "ceiling_ft": null,
         "density_altitude_ft": 594,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-27T18:31:06.403231+00:00"
+        "updated_utc": "2026-11-27T18:35:43.755804+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": -5,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-27T18:31:06.403261+00:00"
+        "updated_utc": "2026-11-27T18:35:43.755818+00:00"
       }
     },
     {
@@ -79,8 +79,8 @@
       "properties": {
         "icao": "VEPT",
         "name": "Jay Prakash Narayan (Patna)",
-        "raw_metar": "METAR VEPT 271800Z 00000KT 1600 BR NSC 16/14 Q1019 NOSIG",
-        "obs_time": "2026-11-27T18:00:00.000Z",
+        "raw_metar": "METAR VEPT 271830Z 00000KT 1600 BR NSC 16/14 Q1019 BECMG 1500 BR",
+        "obs_time": "2026-11-27T18:30:00.000Z",
         "flight_category": "LIFR",
         "temp_c": 16,
         "dewpoint_c": 14,
@@ -93,7 +93,7 @@
         "density_altitude_ft": -28,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-27T18:31:06.403272+00:00"
+        "updated_utc": "2026-11-27T18:35:43.755771+00:00"
       }
     }
   ]
