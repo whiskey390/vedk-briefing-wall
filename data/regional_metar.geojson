@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-27T11:01:27.520084+00:00",
+  "generated_at_utc": "2026-11-27T11:05:36.569598+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 1206,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-27T11:01:27.520076+00:00"
+        "updated_utc": "2026-11-27T11:05:36.569590+00:00"
       }
     },
     {
@@ -50,21 +50,21 @@
       "properties": {
         "icao": "VEDG",
         "name": "Kazi Nazrul Islam (Durgapur)",
-        "raw_metar": "METAR VEDG 271030Z 01006KT 3400 HZ NSC 25/15 Q1016 NOSIG",
-        "obs_time": "2026-11-27T10:30:00.000Z",
+        "raw_metar": "METAR VEDG 271100Z 36005KT 3200 HZ NSC 24/15 Q1017 BECMG 3000 HZ",
+        "obs_time": "2026-11-27T11:00:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 25,
+        "temp_c": 24,
         "dewpoint_c": 15,
-        "qnh_hpa": 1016.0,
-        "wind_dir": 10,
-        "wind_speed_kt": 6,
+        "qnh_hpa": 1017.0,
+        "wind_dir": 360,
+        "wind_speed_kt": 5,
         "wind_gust_kt": null,
-        "visibility_sm": 2.11,
+        "visibility_sm": 1.99,
         "ceiling_ft": null,
-        "density_altitude_ft": 1207,
+        "density_altitude_ft": 1050,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-27T11:01:27.520061+00:00"
+        "updated_utc": "2026-11-27T11:05:36.569579+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 1232,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-27T11:01:27.520051+00:00"
+        "updated_utc": "2026-11-27T11:05:36.569553+00:00"
       }
     },
     {
@@ -122,7 +122,7 @@
         "density_altitude_ft": 1232,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-27T11:01:27.520020+00:00"
+        "updated_utc": "2026-11-27T11:05:36.569518+00:00"
       }
     },
     {
@@ -137,21 +137,21 @@
       "properties": {
         "icao": "VEPT",
         "name": "Jay Prakash Narayan (Patna)",
-        "raw_metar": "METAR VEPT 271030Z 27003KT 3500 HZ NSC 26/10 Q1017 NOSIG",
-        "obs_time": "2026-11-27T10:30:00.000Z",
+        "raw_metar": "METAR VEPT 271100Z 29003KT 3500 HZ NSC 25/12 Q1017 NOSIG",
+        "obs_time": "2026-11-27T11:00:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 26,
-        "dewpoint_c": 10,
+        "temp_c": 25,
+        "dewpoint_c": 12,
         "qnh_hpa": 1017.0,
-        "wind_dir": 270,
+        "wind_dir": 290,
         "wind_speed_kt": 3,
         "wind_gust_kt": null,
         "visibility_sm": 2.17,
         "ceiling_ft": null,
-        "density_altitude_ft": 1246,
+        "density_altitude_ft": 1126,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-27T11:01:27.520068+00:00"
+        "updated_utc": "2026-11-27T11:05:36.569568+00:00"
       }
     }
   ]
