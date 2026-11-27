@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-27T01:05:34.061986+00:00",
+  "generated_at_utc": "2026-11-27T01:10:45.080447+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDG",
@@ -35,7 +35,7 @@
         "density_altitude_ft": -105,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-27T01:05:34.061940+00:00"
+        "updated_utc": "2026-11-27T01:10:45.080411+00:00"
       }
     },
     {
@@ -50,7 +50,7 @@
       "properties": {
         "icao": "VECC",
         "name": "Netaji Subhas Chandra Bose (Kolkata)",
-        "raw_metar": "METAR VECC 270100Z 34006KT 1400 R01R/P2000 BR FEW100 19/16 Q1018 NOSIG",
+        "raw_metar": "METAR VECC 270100Z 34006KT 1400 R01R/P2000 BR FEW100 19/16 Q1018 NOSI G",
         "obs_time": "2026-11-27T01:00:00.000Z",
         "flight_category": "LIFR",
         "temp_c": 19,
@@ -64,7 +64,7 @@
         "density_altitude_ft": 317,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-27T01:05:34.061898+00:00"
+        "updated_utc": "2026-11-27T01:10:45.080427+00:00"
       }
     },
     {
@@ -79,21 +79,21 @@
       "properties": {
         "icao": "VERC",
         "name": "Birsa Munda (Ranchi)",
-        "raw_metar": "METAR VERC 270000Z 32002KT 1500 BR NSC 12/09 Q1021 NOSIG",
-        "obs_time": "2026-11-27T00:00:00.000Z",
+        "raw_metar": "METAR VERC 270100Z 32002KT 1000 R31/1500 FG NSC 10/09 Q1022 NOSIG",
+        "obs_time": "2026-11-27T01:00:00.000Z",
         "flight_category": "LIFR",
-        "temp_c": 12,
+        "temp_c": 10,
         "dewpoint_c": 9,
-        "qnh_hpa": 1021.0,
+        "qnh_hpa": 1022.0,
         "wind_dir": 320,
         "wind_speed_kt": 2,
         "wind_gust_kt": null,
-        "visibility_sm": 0.93,
+        "visibility_sm": 0.62,
         "ceiling_ft": null,
-        "density_altitude_ft": 152,
+        "density_altitude_ft": -125,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-27T01:05:34.061976+00:00"
+        "updated_utc": "2026-11-27T01:10:45.080439+00:00"
       }
     },
     {
@@ -122,7 +122,7 @@
         "density_altitude_ft": -148,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-27T01:05:34.061960+00:00"
+        "updated_utc": "2026-11-27T01:10:45.080375+00:00"
       }
     }
   ]
