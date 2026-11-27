@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-27T02:35:33.605182+00:00",
+  "generated_at_utc": "2026-11-27T02:40:51.903086+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDG",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 98,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-27T02:35:33.605149+00:00"
+        "updated_utc": "2026-11-27T02:40:51.903080+00:00"
       }
     },
     {
@@ -50,7 +50,7 @@
       "properties": {
         "icao": "VECC",
         "name": "Netaji Subhas Chandra Bose (Kolkata)",
-        "raw_metar": "METAR VECC 270230Z 33006KT 1300 R01R/P2000 BR FEW100 20/17 Q1019 NOSI G",
+        "raw_metar": "METAR VECC 270230Z 33006KT 1300 R01R/P2000 BR FEW100 20/17 Q1019 NOSIG",
         "obs_time": "2026-11-27T02:30:00.000Z",
         "flight_category": "LIFR",
         "temp_c": 20,
@@ -64,7 +64,7 @@
         "density_altitude_ft": 400,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-27T02:35:33.605115+00:00"
+        "updated_utc": "2026-11-27T02:40:51.903057+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 77,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-27T02:35:33.605163+00:00"
+        "updated_utc": "2026-11-27T02:40:51.903069+00:00"
       }
     },
     {
@@ -108,21 +108,21 @@
       "properties": {
         "icao": "VEPT",
         "name": "Jay Prakash Narayan (Patna)",
-        "raw_metar": "METAR VEPT 270200Z 26003KT 1600 BR NSC 17/13 Q1020 NOSIG",
-        "obs_time": "2026-11-27T02:00:00.000Z",
+        "raw_metar": "METAR VEPT 270230Z 26003KT 1600 HZ NSC 18/13 Q1021 NOSIG",
+        "obs_time": "2026-11-27T02:30:00.000Z",
         "flight_category": "LIFR",
-        "temp_c": 17,
+        "temp_c": 18,
         "dewpoint_c": 13,
-        "qnh_hpa": 1020.0,
+        "qnh_hpa": 1021.0,
         "wind_dir": 260,
         "wind_speed_kt": 3,
         "wind_gust_kt": null,
         "visibility_sm": 0.99,
         "ceiling_ft": null,
-        "density_altitude_ft": 55,
+        "density_altitude_ft": 138,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-27T02:35:33.605174+00:00"
+        "updated_utc": "2026-11-27T02:40:51.903025+00:00"
       }
     }
   ]
