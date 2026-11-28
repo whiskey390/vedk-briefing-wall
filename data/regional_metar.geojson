@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-28T11:35:35.363261+00:00",
+  "generated_at_utc": "2026-11-28T11:40:49.405926+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 1048,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-28T11:35:35.363236+00:00"
+        "updated_utc": "2026-11-28T11:40:49.405911+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 1013,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-28T11:35:35.363253+00:00"
+        "updated_utc": "2026-11-28T11:40:49.405901+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 1194,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-28T11:35:35.363191+00:00"
+        "updated_utc": "2026-11-28T11:40:49.405866+00:00"
       }
     },
     {
@@ -122,7 +122,7 @@
         "density_altitude_ft": 1075,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-28T11:35:35.363245+00:00"
+        "updated_utc": "2026-11-28T11:40:49.405883+00:00"
       }
     },
     {
@@ -137,21 +137,21 @@
       "properties": {
         "icao": "VEPT",
         "name": "Jay Prakash Narayan (Patna)",
-        "raw_metar": "METAR VEPT 281100Z 00000KT 2800 HZ NSC 24/16 Q1019 NOSIG",
-        "obs_time": "2026-11-28T11:00:00.000Z",
+        "raw_metar": "METAR VEPT 281130Z 00000KT 2800 HZ NSC 23/15 Q1019 NOSIG",
+        "obs_time": "2026-11-28T11:30:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 24,
-        "dewpoint_c": 16,
+        "temp_c": 23,
+        "dewpoint_c": 15,
         "qnh_hpa": 1019.0,
         "wind_dir": 0,
         "wind_speed_kt": 0,
         "wind_gust_kt": null,
         "visibility_sm": 1.74,
         "ceiling_ft": null,
-        "density_altitude_ft": 932,
+        "density_altitude_ft": 812,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-28T11:35:35.363222+00:00"
+        "updated_utc": "2026-11-28T11:40:49.405832+00:00"
       }
     }
   ]
