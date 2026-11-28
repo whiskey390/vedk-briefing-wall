@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-28T14:01:27.925344+00:00",
+  "generated_at_utc": "2026-11-28T14:05:36.160436+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -21,21 +21,21 @@
       "properties": {
         "icao": "VEDO",
         "name": "Deoghar Airport",
-        "raw_metar": "METAR VEDO 281330Z 34004KT 2500 BR NSC 19/14 Q1021 NOSIG",
-        "obs_time": "2026-11-28T13:30:00.000Z",
+        "raw_metar": "METAR VEDO 281400Z 33005KT 2500 BR NSC 19/14 Q1021 NOSIG",
+        "obs_time": "2026-11-28T14:00:00.000Z",
         "flight_category": "IFR",
         "temp_c": 19,
         "dewpoint_c": 14,
         "qnh_hpa": 1021.0,
-        "wind_dir": 340,
-        "wind_speed_kt": 4,
+        "wind_dir": 330,
+        "wind_speed_kt": 5,
         "wind_gust_kt": null,
         "visibility_sm": 1.55,
         "ceiling_ft": null,
         "density_altitude_ft": 494,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-28T14:01:27.925325+00:00"
+        "updated_utc": "2026-11-28T14:05:36.160405+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 773,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-28T14:01:27.925336+00:00"
+        "updated_utc": "2026-11-28T14:05:36.160428+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 1037,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-28T14:01:27.925268+00:00"
+        "updated_utc": "2026-11-28T14:05:36.160416+00:00"
       }
     },
     {
@@ -108,8 +108,8 @@
       "properties": {
         "icao": "VERC",
         "name": "Birsa Munda (Ranchi)",
-        "raw_metar": "METAR VERC 281330Z 00000KT 2000 BR NSC 16/12 Q1023 NOSIG",
-        "obs_time": "2026-11-28T13:30:00.000Z",
+        "raw_metar": "METAR VERC 281400Z 00000KT 2000 BR NSC 16/12 Q1023 NOSIG",
+        "obs_time": "2026-11-28T14:00:00.000Z",
         "flight_category": "IFR",
         "temp_c": 16,
         "dewpoint_c": 12,
@@ -122,7 +122,7 @@
         "density_altitude_ft": 557,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-28T14:01:27.925300+00:00"
+        "updated_utc": "2026-11-28T14:05:36.160390+00:00"
       }
     },
     {
@@ -137,11 +137,11 @@
       "properties": {
         "icao": "VEPT",
         "name": "Jay Prakash Narayan (Patna)",
-        "raw_metar": "METAR VEPT 281330Z 00000KT 2800 BR NSC 19/15 Q1020 NOSIG",
-        "obs_time": "2026-11-28T13:30:00.000Z",
+        "raw_metar": "METAR VEPT 281400Z 00000KT 2800 BR NSC 19/16 Q1020 NOSIG",
+        "obs_time": "2026-11-28T14:00:00.000Z",
         "flight_category": "IFR",
         "temp_c": 19,
-        "dewpoint_c": 15,
+        "dewpoint_c": 16,
         "qnh_hpa": 1020.0,
         "wind_dir": 0,
         "wind_speed_kt": 0,
@@ -151,7 +151,7 @@
         "density_altitude_ft": 295,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-28T14:01:27.925314+00:00"
+        "updated_utc": "2026-11-28T14:05:36.160357+00:00"
       }
     }
   ]
