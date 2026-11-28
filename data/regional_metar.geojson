@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-28T02:55:37.300914+00:00",
+  "generated_at_utc": "2026-11-28T03:01:22.877179+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDG",
@@ -35,7 +35,7 @@
         "density_altitude_ft": 541,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-28T02:55:37.300888+00:00"
+        "updated_utc": "2026-11-28T03:01:22.877171+00:00"
       }
     },
     {
@@ -50,21 +50,21 @@
       "properties": {
         "icao": "VECC",
         "name": "Netaji Subhas Chandra Bose (Kolkata)",
-        "raw_metar": "METAR VECC 280230Z 35006KT 2200 BR NSC 21/18 Q1020 NOSIG",
-        "obs_time": "2026-11-28T02:30:00.000Z",
+        "raw_metar": "METAR VECC 280300Z 36007KT 2600 BR NSC 22/18 Q1020 BECMG 3000 HZ",
+        "obs_time": "2026-11-28T03:00:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 21,
+        "temp_c": 22,
         "dewpoint_c": 18,
         "qnh_hpa": 1020.0,
-        "wind_dir": 350,
-        "wind_speed_kt": 6,
+        "wind_dir": 360,
+        "wind_speed_kt": 7,
         "wind_gust_kt": null,
-        "visibility_sm": 1.37,
+        "visibility_sm": 1.62,
         "ceiling_ft": null,
-        "density_altitude_ft": 483,
+        "density_altitude_ft": 603,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-28T02:55:37.300907+00:00"
+        "updated_utc": "2026-11-28T03:01:22.877116+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 483,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-28T02:55:37.300856+00:00"
+        "updated_utc": "2026-11-28T03:01:22.877161+00:00"
       }
     },
     {
@@ -122,7 +122,7 @@
         "density_altitude_ft": -19,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-28T02:55:37.300899+00:00"
+        "updated_utc": "2026-11-28T03:01:22.877148+00:00"
       }
     }
   ]
