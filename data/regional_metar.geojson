@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-28T12:55:41.900843+00:00",
+  "generated_at_utc": "2026-11-28T13:01:18.647237+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
@@ -21,21 +21,21 @@
       "properties": {
         "icao": "VEDO",
         "name": "Deoghar Airport",
-        "raw_metar": "METAR VEDO 281200Z 36003KT 3200 HZ NSC 20/14 Q1020 BECMG 3000 BR",
-        "obs_time": "2026-11-28T12:00:00.000Z",
+        "raw_metar": "METAR VEDO 281300Z 34003KT 2500 BR NSC 19/14 Q1020 NOSIG",
+        "obs_time": "2026-11-28T13:00:00.000Z",
         "flight_category": "IFR",
-        "temp_c": 20,
+        "temp_c": 19,
         "dewpoint_c": 14,
         "qnh_hpa": 1020.0,
-        "wind_dir": 360,
+        "wind_dir": 340,
         "wind_speed_kt": 3,
         "wind_gust_kt": null,
-        "visibility_sm": 1.99,
+        "visibility_sm": 1.55,
         "ceiling_ft": null,
-        "density_altitude_ft": 651,
+        "density_altitude_ft": 531,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-28T12:55:41.900823+00:00"
+        "updated_utc": "2026-11-28T13:01:18.647160+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 773,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-28T12:55:41.900830+00:00"
+        "updated_utc": "2026-11-28T13:01:18.647229+00:00"
       }
     },
     {
@@ -93,7 +93,7 @@
         "density_altitude_ft": 1157,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-28T12:55:41.900813+00:00"
+        "updated_utc": "2026-11-28T13:01:18.647217+00:00"
       }
     },
     {
@@ -108,21 +108,21 @@
       "properties": {
         "icao": "VERC",
         "name": "Birsa Munda (Ranchi)",
-        "raw_metar": "METAR VERC 281200Z 07003KT 2000 HZ NSC 18/12 Q1023 NOSIG",
-        "obs_time": "2026-11-28T12:00:00.000Z",
+        "raw_metar": "METAR VERC 281230Z 07002KT 2000 HZ NSC 18/12 Q1023 NOSIG",
+        "obs_time": "2026-11-28T12:30:00.000Z",
         "flight_category": "IFR",
         "temp_c": 18,
         "dewpoint_c": 12,
         "qnh_hpa": 1023.0,
         "wind_dir": 70,
-        "wind_speed_kt": 3,
+        "wind_speed_kt": 2,
         "wind_gust_kt": null,
         "visibility_sm": 1.24,
         "ceiling_ft": null,
         "density_altitude_ft": 797,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-28T12:55:41.900837+00:00"
+        "updated_utc": "2026-11-28T13:01:18.647207+00:00"
       }
     },
     {
@@ -151,7 +151,7 @@
         "density_altitude_ft": 535,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-28T12:55:41.900786+00:00"
+        "updated_utc": "2026-11-28T13:01:18.647193+00:00"
       }
     }
   ]
