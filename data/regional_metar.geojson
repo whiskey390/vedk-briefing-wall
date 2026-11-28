@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
-  "source": "LIVE",
-  "generated_at_utc": "2026-11-28T15:01:19.203258+00:00",
+  "source": "FALLBACK",
+  "generated_at_utc": "2026-11-28T15:05:54.069524+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDO",
-    "VECC",
-    "VERC"
+    "VEDG",
+    "VECC"
   ],
   "features": [
     {
@@ -14,28 +14,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          86.707,
-          24.446
+          86.7069,
+          24.445
         ]
       },
       "properties": {
         "icao": "VEDO",
         "name": "Deoghar Airport",
-        "raw_metar": "METAR VEDO 281430Z 33004KT 2300 BR NSC 18/14 Q1021 NOSIG",
-        "obs_time": "2026-11-28T14:30:00.000Z",
-        "flight_category": "IFR",
-        "temp_c": 18,
+        "raw_metar": "VEDO (Simulated/Cached) 29008KT 9999 FEW030 26/14 Q1014",
+        "obs_time": "",
+        "flight_category": "VFR",
+        "temp_c": 26,
         "dewpoint_c": 14,
-        "qnh_hpa": 1021.0,
-        "wind_dir": 330,
-        "wind_speed_kt": 4,
+        "qnh_hpa": 1014.0,
+        "wind_dir": 290,
+        "wind_speed_kt": 8,
         "wind_gust_kt": null,
-        "visibility_sm": 1.43,
+        "visibility_sm": 6.0,
         "ceiling_ft": null,
-        "density_altitude_ft": 374,
+        "density_altitude_ft": 2300,
         "dist_nm": 33.4,
         "bearing_deg": 293,
-        "updated_utc": "2026-11-28T15:01:19.203199+00:00"
+        "updated_utc": "2026-11-28T15:05:54.069419+00:00"
       }
     },
     {
@@ -43,28 +43,57 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          88.445,
-          22.651
+          87.243,
+          23.6225
+        ]
+      },
+      "properties": {
+        "icao": "VEDG",
+        "name": "Kazi Nazrul Islam (Durgapur)",
+        "raw_metar": "VEDG (Simulated/Cached) 31010KT 9999 SCT035 27/15 Q1013",
+        "obs_time": "",
+        "flight_category": "VFR",
+        "temp_c": 27,
+        "dewpoint_c": 15,
+        "qnh_hpa": 1013.0,
+        "wind_dir": 310,
+        "wind_speed_kt": 10,
+        "wind_gust_kt": null,
+        "visibility_sm": 6.0,
+        "ceiling_ft": null,
+        "density_altitude_ft": 1802,
+        "dist_nm": 36.5,
+        "bearing_deg": 182,
+        "updated_utc": "2026-11-28T15:05:54.069466+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.4467,
+          22.6547
         ]
       },
       "properties": {
         "icao": "VECC",
         "name": "Netaji Subhas Chandra Bose (Kolkata)",
-        "raw_metar": "METAR VECC 281430Z 33007KT 3500 HZ NSC 25/18 Q1018 NOSIG",
-        "obs_time": "2026-11-28T14:30:00.000Z",
-        "flight_category": "IFR",
-        "temp_c": 25,
+        "raw_metar": "VECC (Simulated/Cached) 32009KT 5000 HZ FEW025 28/18 Q1012",
+        "obs_time": "",
+        "flight_category": "MVFR",
+        "temp_c": 28,
         "dewpoint_c": 18,
-        "qnh_hpa": 1018.0,
-        "wind_dir": 330,
-        "wind_speed_kt": 7,
+        "qnh_hpa": 1012.0,
+        "wind_dir": 320,
+        "wind_speed_kt": 9,
         "wind_gust_kt": null,
-        "visibility_sm": 2.17,
+        "visibility_sm": 5.0,
         "ceiling_ft": null,
-        "density_altitude_ft": 1037,
-        "dist_nm": 114.8,
+        "density_altitude_ft": 1626,
+        "dist_nm": 114.7,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-28T15:01:19.203188+00:00"
+        "updated_utc": "2026-11-28T15:05:54.069498+00:00"
       }
     },
     {
@@ -72,28 +101,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          85.322,
-          23.314
+          85.3217,
+          23.3143
         ]
       },
       "properties": {
         "icao": "VERC",
         "name": "Birsa Munda (Ranchi)",
-        "raw_metar": "METAR VERC 281500Z 00000KT 1800 BR NSC 15/12 Q1024 NOSIG",
-        "obs_time": "2026-11-28T15:00:00.000Z",
-        "flight_category": "IFR",
-        "temp_c": 15,
-        "dewpoint_c": 12,
-        "qnh_hpa": 1024.0,
-        "wind_dir": 0,
-        "wind_speed_kt": 0,
+        "raw_metar": "VERC (Simulated/Cached) 27007KT 9999 FEW040 23/11 Q1015",
+        "obs_time": "",
+        "flight_category": "VFR",
+        "temp_c": 23,
+        "dewpoint_c": 11,
+        "qnh_hpa": 1015.0,
+        "wind_dir": 270,
+        "wind_speed_kt": 7,
         "wind_gust_kt": null,
-        "visibility_sm": 1.12,
+        "visibility_sm": 6.0,
         "ceiling_ft": null,
-        "density_altitude_ft": 400,
+        "density_altitude_ft": 3551,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-28T15:01:19.203158+00:00"
+        "updated_utc": "2026-11-28T15:05:54.069484+00:00"
       }
     },
     {
@@ -102,27 +131,27 @@
         "type": "Point",
         "coordinates": [
           85.088,
-          25.591
+          25.5913
         ]
       },
       "properties": {
         "icao": "VEPT",
         "name": "Jay Prakash Narayan (Patna)",
-        "raw_metar": "METAR VEPT 281430Z 00000KT 2500 BR NSC 19/16 Q1020 NOSIG",
-        "obs_time": "2026-11-28T14:30:00.000Z",
-        "flight_category": "IFR",
-        "temp_c": 19,
-        "dewpoint_c": 16,
-        "qnh_hpa": 1020.0,
-        "wind_dir": 0,
-        "wind_speed_kt": 0,
+        "raw_metar": "VEPT (Simulated/Cached) 28006KT 9999 NSC 25/13 Q1014",
+        "obs_time": "",
+        "flight_category": "VFR",
+        "temp_c": 25,
+        "dewpoint_c": 13,
+        "qnh_hpa": 1014.0,
+        "wind_dir": 280,
+        "wind_speed_kt": 6,
         "wind_gust_kt": null,
-        "visibility_sm": 1.55,
+        "visibility_sm": 6.0,
         "ceiling_ft": null,
-        "density_altitude_ft": 295,
+        "density_altitude_ft": 1383,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-28T15:01:19.203238+00:00"
+        "updated_utc": "2026-11-28T15:05:54.069513+00:00"
       }
     }
   ]
