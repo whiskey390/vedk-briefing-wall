@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "source": "LIVE",
-  "generated_at_utc": "2026-11-28T00:45:46.736830+00:00",
+  "generated_at_utc": "2026-11-28T00:50:50.473005+00:00",
   "home_base": "VEDK",
   "nearest_three": [
     "VEDG",
@@ -21,21 +21,21 @@
       "properties": {
         "icao": "VEDG",
         "name": "Kazi Nazrul Islam (Durgapur)",
-        "raw_metar": "METAR VEDG 280000Z 27002KT 2800 BR NSC 15/14 Q1019 NOSIG",
-        "obs_time": "2026-11-28T00:00:00.000Z",
+        "raw_metar": "METAR VEDG 280030Z 26002KT 2000 BR NSC 15/14 Q1020 BECMG 1500 BR",
+        "obs_time": "2026-11-28T00:30:00.000Z",
         "flight_category": "IFR",
         "temp_c": 15,
         "dewpoint_c": 14,
-        "qnh_hpa": 1019.0,
-        "wind_dir": 270,
+        "qnh_hpa": 1020.0,
+        "wind_dir": 260,
         "wind_speed_kt": 2,
         "wind_gust_kt": null,
-        "visibility_sm": 1.74,
+        "visibility_sm": 1.24,
         "ceiling_ft": null,
-        "density_altitude_ft": -105,
+        "density_altitude_ft": -142,
         "dist_nm": 36.5,
         "bearing_deg": 182,
-        "updated_utc": "2026-11-28T00:45:46.736816+00:00"
+        "updated_utc": "2026-11-28T00:50:50.472941+00:00"
       }
     },
     {
@@ -64,7 +64,7 @@
         "density_altitude_ft": 197,
         "dist_nm": 114.8,
         "bearing_deg": 145,
-        "updated_utc": "2026-11-28T00:45:46.736779+00:00"
+        "updated_utc": "2026-11-28T00:50:50.472975+00:00"
       }
     },
     {
@@ -79,10 +79,10 @@
       "properties": {
         "icao": "VERC",
         "name": "Birsa Munda (Ranchi)",
-        "raw_metar": "METAR VERC 280000Z 00000KT 1200 BR NSC 10/08 Q1023 NOSIG",
-        "obs_time": "2026-11-28T00:00:00.000Z",
+        "raw_metar": "METAR VERC 280030Z 00000KT 1200 BR NSC 08/08 Q1023 NOSIG",
+        "obs_time": "2026-11-28T00:30:00.000Z",
         "flight_category": "LIFR",
-        "temp_c": 10,
+        "temp_c": 8,
         "dewpoint_c": 8,
         "qnh_hpa": 1023.0,
         "wind_dir": 0,
@@ -90,10 +90,10 @@
         "wind_gust_kt": null,
         "visibility_sm": 0.75,
         "ceiling_ft": null,
-        "density_altitude_ft": -163,
+        "density_altitude_ft": -403,
         "dist_nm": 120.3,
         "bearing_deg": 243,
-        "updated_utc": "2026-11-28T00:45:46.736823+00:00"
+        "updated_utc": "2026-11-28T00:50:50.472998+00:00"
       }
     },
     {
@@ -122,7 +122,7 @@
         "density_altitude_ft": -305,
         "dist_nm": 144.2,
         "bearing_deg": 305,
-        "updated_utc": "2026-11-28T00:45:46.736807+00:00"
+        "updated_utc": "2026-11-28T00:50:50.472989+00:00"
       }
     }
   ]
